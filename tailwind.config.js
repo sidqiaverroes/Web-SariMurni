@@ -17,6 +17,9 @@ module.exports = {
         "c-gold2": "#D4BF66",
         "c-lightgold": "#F4E896",
       },
+      backgroundImage: {
+        "hero-image": "url('/hero-img.png')",
+      },
     },
   },
   plugins: [],
