@@ -1,13 +1,16 @@
-import Image from "next/image";
-import { Inter } from "next/font/google";
 import NavBar from "@/components/navbar";
-
-const inter = Inter({ subsets: ["latin"] });
+import Footer from "@/components/footer";
 
 export default function Home() {
   return (
     <div>
       <NavBar></NavBar>
+      <section id="hero"></section>
+      <section id="peta"></section>
+      <section id="komoditas"></section>
+      <section id="berita"></section>
+      <section id="Galeri"></section>
+      <Footer></Footer>
     </div>
   );
 }
