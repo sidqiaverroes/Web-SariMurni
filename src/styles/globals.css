@@ -1,0 +1,67 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'AbrilFatface';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(../fonts/AbrilFatface-Regular.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'AbhayaLibre';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(../fonts/AbhayaLibre-Regular.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'AbhayaLibre';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(../fonts/AbhayaLibre-Medium.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'AbhayaLibre';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(../fonts/AbhayaLibre-SemiBold.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'AbhayaLibre';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(../fonts/AbhayaLibre-Bold.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'AbhayaLibre';
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: url(../fonts/AbhayaLibre-ExtraBold.ttf) format('truetype');
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'AbhayaLibre', serif;
+}
+
+h1, h2, h3, h4, h5, h6{
+  font-family: 'AbrilFatface', serif;
+}
+
+html {
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
