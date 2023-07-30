@@ -22,7 +22,7 @@ function hero() {
             <p className=" text-white text-xl font-extrabold">
               Selamat Datang di Website Desa
             </p>
-            <h1 className=" text-transparent bg-clip-text bg-gradient-to-r from-c-gold2 to-c-lightgold text-8xl pb-4">
+            <h1 className="animate-text text-transparent bg-clip-text bg-gradient-to-r from-c-darkgold via-c-lightgold to-c-darkgold text-8xl pb-4">
               Banuroja
             </h1>
             <p className="text-white text-center text-xl">

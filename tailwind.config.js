@@ -21,6 +21,21 @@ module.exports = {
         "hero-image": "url('/hero-img.png')",
         "komoditas-image": "url('/komoditas-img.png')",
       },
+      animation: {
+        text: "text 5s ease infinite",
+      },
+      keyframes: {
+        text: {
+          "0%": {
+            "background-size": "200% 200%",
+            "background-position": "0%",
+          },
+          "100%": {
+            "background-size": "200% 200%",
+            "background-position": "200%",
+          },
+        },
+      },
     },
   },
   plugins: [],
