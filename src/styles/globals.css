@@ -75,3 +75,21 @@ html {
   box-sizing: border-box;
   overflow-x: hidden;
 }
+
+a {
+  cursor: pointer;
+}
+
+/* Customize the bullet styles */
+/* .swiper-pagination-bullet {
+  width: 10px;
+  height: 10px;
+  background: #007bff;
+  opacity: 0.7;
+} */
+
+/* Customize the active bullet style */
+/* .swiper-pagination-bullet-active {
+  background: #67f7f9;
+  opacity: 1;
+} */

@@ -2,6 +2,18 @@ import React from "react";
 import { BsChevronDown } from "react-icons/bs";
 
 function hero() {
+  const handleClick = (event) => {
+    event.preventDefault();
+    const targetElement = document.getElementById("peta");
+
+    if (targetElement) {
+      targetElement.scrollIntoView({
+        behavior: "smooth",
+        block: "center",
+      });
+    }
+  };
+
   return (
     <>
       <div className="flex justify-center items-center w-full bg-hero-image bg-cover bg-center h-[720px]">
@@ -19,10 +31,14 @@ function hero() {
               duis interdum tincidunt diam morbi.
             </p>
           </div>
-          <div className="flex flex-col justify-center items-center text-white text-base group hover:cursor-pointer">
+          <a
+            href="#peta"
+            onClick={handleClick}
+            className="flex flex-col justify-center items-center text-white text-base group hover:cursor-pointer"
+          >
             <p>Telusuri</p>
             <BsChevronDown className="group-hover:translate-y-2 duration-500"></BsChevronDown>
-          </div>
+          </a>
         </div>
       </div>
     </>

@@ -2,6 +2,7 @@ import NavBar from "@/components/navbar";
 import Hero from "@/components/hero";
 import Peta from "@/components/Peta";
 import Footer from "@/components/footer";
+import Komoditas from "@/components/komoditas";
 
 export default function Home() {
   return (
@@ -9,7 +10,7 @@ export default function Home() {
       <NavBar></NavBar>
       <Hero></Hero>
       <Peta></Peta>
-      <section id="komoditas"></section>
+      <Komoditas></Komoditas>
       <section id="berita"></section>
       <section id="Galeri"></section>
       <Footer></Footer>
