@@ -80,7 +80,10 @@ a {
   cursor: pointer;
 }
 
-
+.navbar{
+  background-color: rgba(6, 84, 60, 0.75);
+  backdrop-filter: blur(10px)
+}
 
 /* Customize the bullet styles */
 /* .swiper-pagination-bullet {

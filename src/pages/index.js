@@ -8,12 +8,12 @@ import Berita from "@/components/berita";
 export default function Home() {
   return (
     <div>
-      <NavBar></NavBar>
       <Hero></Hero>
       <Peta></Peta>
       <Komoditas></Komoditas>
       <Berita></Berita>
       <section id="Galeri"></section>
+      <NavBar></NavBar>
       <Footer></Footer>
     </div>
   );

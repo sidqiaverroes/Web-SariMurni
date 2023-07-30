@@ -51,7 +51,7 @@ function NavBar(props) {
   return (
     <>
       {/* This example requires Tailwind CSS v2.0+ */}
-      <div className="relative bg-c-green shadow-md">
+      <div className="bg-c-green shadow-md fixed top-0 w-full z-999 navbar">
         <div className="flex justify-between items-center max-w-[1080px] w-full mx-auto h-16 xl:px-0 px-8">
           <div className="flex justify-start items-center gap-4">
             <a href="/" style={{ width: "40px", height: "40 px" }}>
