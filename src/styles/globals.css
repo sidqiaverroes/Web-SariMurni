@@ -57,8 +57,18 @@ body {
   font-family: 'AbhayaLibre', serif;
 }
 
-h1, h2, h3, h4, h5, h6{
+h1, h2, h3, h4, h5{
   font-family: 'AbrilFatface', serif;
+}
+
+h2{
+  color: #063427;
+  font-size: 40px;
+}
+
+h6{
+  color: #926F2F;
+  font-size: 20px;
 }
 
 html {

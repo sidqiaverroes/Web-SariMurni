@@ -39,12 +39,12 @@ function NavBar(props) {
       href: "/bumdes",
     },
     {
-      name: "Galeri",
-      href: "/galeri",
-    },
-    {
       name: "Peta",
       href: "/peta",
+    },
+    {
+      name: "Galeri",
+      href: "/galeri",
     },
   ];
 
