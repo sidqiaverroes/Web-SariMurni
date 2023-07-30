@@ -4,7 +4,10 @@ import { MapContainer, TileLayer, Marker, Popup } from "react-leaflet";
 
 function peta() {
   return (
-    <section className="flex justify-center items-center w-full py-24">
+    <section
+      id="peta"
+      className="flex justify-center items-center w-full py-24"
+    >
       <div className="flex flex-col max-w-[1080px] w-full gap-12">
         <div className="flex flex-col justify-center items-center w-full">
           <h2>Peta Wilayah</h2>
@@ -31,7 +34,7 @@ function peta() {
             <p className=" font-extrabold text-xl text-center">
               Peta Desa Banuroja
             </p>
-            <a className="text-c-darkgreen rounded-full px-6 font-extrabold bg-gradient-to-r from-c-gold2 to-c-lightgold">
+            <a className="text-c-darkgreen rounded-full px-6 font-extrabold bg-gradient-to-r from-c-gold2 to-c-lightgold hover:-translate-y-1 hover:cursor-pointer duration-500">
               Jelajahi
             </a>
           </div>
