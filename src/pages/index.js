@@ -3,6 +3,7 @@ import Hero from "@/components/hero";
 import Peta from "@/components/Peta";
 import Footer from "@/components/footer";
 import Komoditas from "@/components/komoditas";
+import Berita from "@/components/berita";
 
 export default function Home() {
   return (
@@ -11,7 +12,7 @@ export default function Home() {
       <Hero></Hero>
       <Peta></Peta>
       <Komoditas></Komoditas>
-      <section id="berita"></section>
+      <Berita></Berita>
       <section id="Galeri"></section>
       <Footer></Footer>
     </div>

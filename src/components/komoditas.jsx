@@ -3,7 +3,6 @@ import { useState } from "react";
 import Image from "next/image";
 
 import { BiChevronRight, BiChevronLeft } from "react-icons/bi";
-import { AiOutlineArrowRight } from "react-icons/ai";
 // import Swiper core and required modules
 import { Navigation, Pagination, Autoplay } from "swiper/modules";
 
@@ -69,7 +68,7 @@ function komoditas() {
           <div className="flex flex-row items-center">
             <div
               onClick={() => swiper.slidePrev()}
-              className="bg-white p-2 rounded-full hover:cursor-pointer text-c-darkgreen"
+              className="bg-white p-2 rounded-full hover:cursor-pointer hover:-translate-y-1 duration-200 text-c-darkgreen"
             >
               <BiChevronLeft size={24} />
             </div>
@@ -104,11 +103,8 @@ function komoditas() {
                           <p className="text-c-darkgreen font-extrabold text-lg">
                             {name}
                           </p>
-                          <a className="group flex justify-center items-center bg-c-darkgreen text-white rounded-full px-4 py-1 hover:bg-c-green hover:translate-x-1 hover:shadow-lg shadow-md duration-200">
+                          <a className="flex justify-center items-center bg-c-darkgreen text-white rounded-full px-4 py-1 hover:bg-c-green hover:translate-x-1 hover:shadow-lg shadow-md duration-200">
                             Pelajari
-                            <span className="hidden group-hover:visible duration-200">
-                              <AiOutlineArrowRight />
-                            </span>
                           </a>
                         </div>
                       </div>
@@ -119,7 +115,7 @@ function komoditas() {
             </Swiper>
             <div
               onClick={() => swiper.slideNext()}
-              className="bg-white p-2 rounded-full hover:cursor-pointer text-c-darkgreen"
+              className="bg-white p-2 rounded-full hover:cursor-pointer hover:-translate-y-1 duration-200 text-c-darkgreen"
             >
               <BiChevronRight size={24} />
             </div>
