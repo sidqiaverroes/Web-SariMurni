@@ -1,5 +1,5 @@
 import Image from "next/image";
-
+import { useRouter } from "next/router";
 import React, { useState, useEffect } from "react";
 import Link from "next/link";
 
@@ -26,14 +26,8 @@ function NavBar(props) {
     };
   }, [prevScrollPos]);
 
-  //   const handleScrollTo = (event, targetId) => {
-  //     event.preventDefault();
-  //     const scrollTo = document.getElementById(targetId);
-
-  //     if (scrollTo) {
-  //       scrollTo.scrollIntoView({ behavior: "smooth" });
-  //     }
-  //   };
+  const router = useRouter();
+  const isActive = (pathname) => router.pathname === pathname;
 
   const navItem = [
     {
@@ -118,10 +112,18 @@ function NavBar(props) {
 
           <nav className="hidden md:flex space-x-10">
             {navItem.map((item, index) => (
-              <ul key={index}>
-                <Link href={item.href} className="text-white hover:text-c-gold">
+              <ul key={index} className="flex flex-col">
+                <Link
+                  href={item.href}
+                  className={` hover:text-c-gold ${
+                    isActive(`${item.href}`) ? "text-c-gold2" : "text-white"
+                  }`}
+                >
                   {item.name}
                 </Link>
+                {isActive(`${item.href}`) && (
+                  <div className="w-full h-[0.5px] bg-c-gold2" />
+                )}
               </ul>
             ))}
           </nav>
