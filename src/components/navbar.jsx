@@ -1,12 +1,30 @@
 import Image from "next/image";
 
-import React from "react";
+import React, { useState, useEffect } from "react";
 import Link from "next/link";
 
 import logo from "../../public/logo-banu.png";
 
 function NavBar(props) {
-  const [open, setOpen] = React.useState(false);
+  const [open, setOpen] = useState(false);
+
+  const [prevScrollPos, setPrevScrollPos] = useState(0);
+  const [visible, setVisible] = useState(true);
+
+  const handleScroll = () => {
+    const currentScrollPos = window.pageYOffset;
+    const visible = prevScrollPos > currentScrollPos;
+
+    setPrevScrollPos(currentScrollPos);
+    setVisible(visible);
+  };
+
+  useEffect(() => {
+    window.addEventListener("scroll", handleScroll);
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, [prevScrollPos]);
 
   //   const handleScrollTo = (event, targetId) => {
   //     event.preventDefault();
@@ -31,17 +49,18 @@ function NavBar(props) {
       href: "/potensi",
     },
     {
-      name: "Berita",
-      href: "/berita",
+      name: "Peta",
+      href: "/peta",
     },
     {
       name: "Bumdes",
       href: "/bumdes",
     },
     {
-      name: "Peta",
-      href: "/peta",
+      name: "Berita",
+      href: "/berita",
     },
+
     {
       name: "Galeri",
       href: "/galeri",
@@ -51,7 +70,11 @@ function NavBar(props) {
   return (
     <>
       {/* This example requires Tailwind CSS v2.0+ */}
-      <div className="bg-c-green shadow-md fixed top-0 w-full z-999 navbar">
+      <div
+        className={`bg-c-green shadow-md fixed top-0 w-full z-999 navbar ${
+          visible ? "translate-y-0" : "-translate-y-full"
+        } transition-transform duration-300 ease-in-out`}
+      >
         <div className="flex justify-between items-center max-w-[1080px] w-full mx-auto h-16 xl:px-0 px-8">
           <div className="flex justify-start items-center gap-4">
             <Link href="/" style={{ width: "40px", height: "40 px" }}>
