@@ -1,5 +1,4 @@
-import React from "react";
-import { useState } from "react";
+import React, { useState } from "react";
 import Image from "next/image";
 
 import { BiChevronRight, BiChevronLeft } from "react-icons/bi";
