@@ -54,7 +54,7 @@ function NavBar(props) {
       <div className="bg-c-green shadow-md fixed top-0 w-full z-999 navbar">
         <div className="flex justify-between items-center max-w-[1080px] w-full mx-auto h-16 xl:px-0 px-8">
           <div className="flex justify-start items-center gap-4">
-            <a href="/" style={{ width: "40px", height: "40 px" }}>
+            <Link href="/" style={{ width: "40px", height: "40 px" }}>
               <Image
                 src={logo}
                 alt="logo"
@@ -62,7 +62,7 @@ function NavBar(props) {
                 width={40}
                 height={40}
               />
-            </a>
+            </Link>
             <span className=" font-bold text-c-gold2 text-base">
               Desa Banuroja
             </span>
@@ -105,7 +105,7 @@ function NavBar(props) {
           {props.type && (
             <div className="hidden md:flex items-center justify-end md:flex-1 lg:w-0">
               <Link
-                href="/seek"
+                href="/"
                 className="ml-8 whitespace-nowrap inline-flex items-center justify-center px-12 py-2 border border-transparent rounded-md shadow-sm text-base font-medium text-white bg-c-green hover:bg-c-darkgreen"
               >
                 Seek Now
