@@ -17,7 +17,7 @@ function hero() {
   return (
     <>
       <div className="flex justify-center items-center w-full bg-hero-image bg-cover bg-center h-[720px]">
-        <div className="flex flex-col justify-center items-center max-w-[1080px] gap-12 p-24">
+        <div className="flex flex-col justify-center items-center max-w-[1080px] gap-12 p-24 mt-10">
           <div className="flex flex-col justify-center items-center gap-4">
             <p className=" text-white text-xl font-extrabold">
               Selamat Datang di Website Desa

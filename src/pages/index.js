@@ -4,16 +4,17 @@ import Peta from "@/components/Peta";
 import Footer from "@/components/footer";
 import Komoditas from "@/components/komoditas";
 import Berita from "@/components/berita";
+import Galeri from "@/components/galeri";
 
 export default function Home() {
   return (
     <div>
-      <NavBar></NavBar>
       <Hero></Hero>
       <Peta></Peta>
       <Komoditas></Komoditas>
       <Berita></Berita>
-      <section id="Galeri"></section>
+      <Galeri></Galeri>
+      <NavBar></NavBar>
       <Footer></Footer>
     </div>
   );

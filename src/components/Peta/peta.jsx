@@ -6,12 +6,12 @@ function peta() {
   return (
     <section
       id="peta"
-      className="flex justify-center items-center w-full py-24"
+      className=" flex justify-center items-center w-full py-24 relative z-0"
     >
       <div className="flex flex-col max-w-[1080px] w-full gap-12">
         <div className="flex flex-col justify-center items-center w-full">
           <h2>Peta Wilayah</h2>
-          <h6>Lorem ipsum dolor sit amet consectetur.</h6>
+          {/* <h6>Lorem ipsum dolor sit amet consectetur.</h6> */}
         </div>
         <div className="flex felx-row bg-c-green w-full overflow-hidden rounded-xl shadow-md">
           <MapContainer
