@@ -80,9 +80,8 @@ function galeri() {
           <div className="grid lg:grid-cols-3 md:grid-cols-2 gap-8">
             {selectedGaleri.map((item, index) => {
               return (
-                <span className="overflow-hidden rounded-lg">
+                <span key={index} className="overflow-hidden rounded-lg">
                   <GalleryItem
-                    key={index}
                     imageSrc={item.image}
                     title={item.title}
                   ></GalleryItem>

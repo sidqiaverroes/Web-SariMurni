@@ -52,7 +52,7 @@ function komoditas() {
       image: "/kelapa-img.png",
     },
   ];
-  const [swiper, setSwiper] = useState();
+  const [swiper, setSwiper] = useState(null);
 
   return (
     <>
