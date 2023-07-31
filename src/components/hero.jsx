@@ -1,7 +1,7 @@
 import React from "react";
 import { BsChevronDown } from "react-icons/bs";
 
-function hero() {
+function Hero() {
   const handleClick = (event) => {
     event.preventDefault();
     const targetElement = document.getElementById("peta");
@@ -45,4 +45,4 @@ function hero() {
   );
 }
 
-export default hero;
+export default Hero;

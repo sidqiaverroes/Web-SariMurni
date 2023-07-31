@@ -40,7 +40,7 @@ const GalleryItem = ({ imageSrc, title }) => {
   );
 };
 
-function galeri() {
+function Galeri() {
   const galeri = [
     {
       title: "galeri1",
@@ -100,4 +100,4 @@ function galeri() {
   );
 }
 
-export default galeri;
+export default Galeri;

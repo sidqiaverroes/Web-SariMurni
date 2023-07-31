@@ -2,7 +2,7 @@ import "leaflet/dist/leaflet.css";
 import React from "react";
 import { MapContainer, TileLayer, Marker, Popup } from "react-leaflet";
 
-function peta() {
+function Peta() {
   return (
     <section
       id="peta"
@@ -44,4 +44,4 @@ function peta() {
   );
 }
 
-export default peta;
+export default Peta;
