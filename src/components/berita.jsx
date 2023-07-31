@@ -2,7 +2,7 @@ import React from "react";
 import Image from "next/image";
 import { AiOutlineArrowRight } from "react-icons/ai";
 
-function berita() {
+function Berita() {
   const berita = [
     {
       id: 1,
@@ -125,4 +125,4 @@ function berita() {
   );
 }
 
-export default berita;
+export default Berita;

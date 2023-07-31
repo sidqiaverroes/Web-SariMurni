@@ -1,8 +1,7 @@
 import React from "react";
-import { icons } from "react-icons";
 import { BsFacebook, BsInstagram, BsYoutube } from "react-icons/bs";
 
-function footer() {
+function Footer() {
   const socmed = [
     {
       name: "Facebook",
@@ -80,4 +79,4 @@ function footer() {
   );
 }
 
-export default footer;
+export default Footer;

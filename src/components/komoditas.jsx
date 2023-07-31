@@ -12,7 +12,7 @@ import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 
-function komoditas() {
+function Komoditas() {
   const komoditas = [
     {
       _id: 1,
@@ -125,4 +125,4 @@ function komoditas() {
   );
 }
 
-export default komoditas;
+export default Komoditas;
