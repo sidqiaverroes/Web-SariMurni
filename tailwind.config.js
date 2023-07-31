@@ -23,6 +23,8 @@ module.exports = {
       },
       animation: {
         text: "text 5s ease infinite",
+        zoomOut: "zoomOut 10s ease infinite",
+        translateDown: "translateDown 5s ease infinite",
       },
       keyframes: {
         text: {
@@ -33,6 +35,25 @@ module.exports = {
           "100%": {
             "background-size": "200% 200%",
             "background-position": "200%",
+          },
+        },
+        translateDown: {
+          "0%": {
+            translate: "0px 0px",
+          },
+          "50%": {
+            translate: "0px 12px",
+          },
+          "100%": {
+            translate: "0px 0px",
+          },
+        },
+        zoomOut: {
+          "0%": {
+            transform: "scale(1)",
+          },
+          "100%": {
+            transform: "scale(2)",
           },
         },
       },

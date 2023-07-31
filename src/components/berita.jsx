@@ -52,7 +52,10 @@ function Berita() {
       id="peta"
       className="flex justify-center items-center w-full py-24"
     >
-      <div className="flex flex-col max-w-[1080px] w-full gap-12">
+      <div
+        className="flex flex-col max-w-[1080px] w-full gap-12"
+        data-aos="fade-up"
+      >
         <div className="flex flex-col justify-center items-center w-full">
           <h2>Berita Terkini</h2>
           <h6>Informasi aktual tentang Desa Banuroja.</h6>

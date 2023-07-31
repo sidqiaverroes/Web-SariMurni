@@ -16,8 +16,11 @@ function Hero() {
 
   return (
     <>
-      <div className="flex justify-center items-center w-full bg-hero-image bg-cover bg-center h-[720px]">
-        <div className="flex flex-col justify-center items-center max-w-[1080px] gap-12 p-24 mt-10">
+      <div className=" flex justify-center items-center w-full bg-hero-image bg-cover bg-center h-[720px]">
+        <div
+          className="flex flex-col justify-center items-center max-w-[1080px] gap-12 p-24 mt-10"
+          data-aos="fade-up"
+        >
           <div className="flex flex-col justify-center items-center gap-4">
             <p className=" text-white text-xl font-extrabold">
               Selamat Datang di Website Desa
@@ -37,7 +40,7 @@ function Hero() {
             className="flex flex-col justify-center items-center text-white text-base group hover:cursor-pointer"
           >
             <p>Telusuri</p>
-            <BsChevronDown className="group-hover:translate-y-2 duration-500"></BsChevronDown>
+            <BsChevronDown className=" animate-translateDown"></BsChevronDown>
           </a>
         </div>
       </div>
