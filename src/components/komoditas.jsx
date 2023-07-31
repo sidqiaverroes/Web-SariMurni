@@ -56,7 +56,10 @@ function Komoditas() {
   return (
     <>
       <section className="flex justify-center items-center w-full bg-komoditas-image bg-cover bg-center h-[670px] relative z-0">
-        <div className="flex flex-col max-w-[1080px] w-full gap gap-12">
+        <div
+          className="flex flex-col max-w-[1080px] w-full gap gap-12"
+          data-aos="fade-up"
+        >
           <div className="flex flex-col justify-center items-center w-full">
             <h2 className="text-white">Komoditas Unggulan</h2>
             <h6 className="text-c-lightgold">

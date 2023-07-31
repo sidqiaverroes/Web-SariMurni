@@ -72,7 +72,10 @@ function Galeri() {
 
   return (
     <>
-      <section className="flex justify-center items-center w-full py-24 bg-gradient-to-t from-c-gold2 to-c-lightgold">
+      <section
+        className="flex justify-center items-center w-full py-24 bg-gradient-to-t from-c-gold2 to-c-lightgold"
+        data-aos="fade-up"
+      >
         <div className="flex flex-col gap-8">
           <div className="flex justify-center items-center w-full">
             <h2>Galeri</h2>

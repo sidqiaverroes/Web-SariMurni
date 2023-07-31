@@ -12,7 +12,7 @@ function NavBar(props) {
   const [visible, setVisible] = useState(true);
 
   const handleScroll = () => {
-    const currentScrollPos = window.pageYOffset;
+    const currentScrollPos = window.scrollY;
     const visible = prevScrollPos > currentScrollPos;
 
     setPrevScrollPos(currentScrollPos);

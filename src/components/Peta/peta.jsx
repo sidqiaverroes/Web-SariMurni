@@ -7,6 +7,7 @@ function Peta() {
     <section
       id="peta"
       className=" flex justify-center items-center w-full py-24 relative z-0"
+      data-aos="fade-up"
     >
       <div className="flex flex-col max-w-[1080px] w-full gap-12">
         <div className="flex flex-col justify-center items-center w-full">
