@@ -80,13 +80,15 @@ function NavBar(props) {
   return (
     <>
       <div
-        className={` shadow-md fixed top-0 w-full z-999 ${
-          isAtTop ? `${isHome ? "bg-transparent" : "bg-c-green"}` : "navbar"
+        className={` fixed top-0 w-full z-999 ${
+          isAtTop
+            ? `${isHome ? "bg-transparent" : "bg-c-green shadow-md"}`
+            : "navbar"
         } 
         
         ${
           visible ? "translate-y-0" : "-translate-y-full"
-        } transition-transform duration-300 ease-in-out`}
+        } transition-all duration-500 ease-in-out`}
       >
         <div className="flex justify-between items-center max-w-[1080px] w-full mx-auto h-16 xl:px-0 px-8">
           <div className="flex justify-start items-center gap-4">

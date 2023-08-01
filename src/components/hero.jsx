@@ -9,7 +9,7 @@ function Hero() {
     if (targetElement) {
       targetElement.scrollIntoView({
         behavior: "smooth",
-        block: "center",
+        block: "start",
       });
     }
   };
