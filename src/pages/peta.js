@@ -2,7 +2,7 @@ import React from "react";
 import NavBar from "@/components/navbar";
 import Footer from "@/components/footer";
 
-function Profil() {
+function Peta() {
   return (
     <>
       <div className="flex justify-center items-center w-full h-screen">
@@ -14,4 +14,4 @@ function Profil() {
   );
 }
 
-export default Profil;
+export default Peta;
