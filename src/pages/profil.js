@@ -18,14 +18,14 @@ function Profil() {
                 Desa Banuroja adalah desa yang terletak di Kecamatan Randangan,
                 Kabupaten Pohuwato, Provinsi Gorontalo. Desa ini memiliki luas
                 wilayah sekitar 10,5 kilometer persegi dan berpenduduk sekitar
-                2.000 jiwa. Desa Banuroja dijuluki sebagai "Desa Pancasila"
-                karena masyarakatnya yang heterogen dan hidup rukun
-                berdampingan, walaupun mereka berasal dari berbagai suku dan
-                agama yang berbeda. Suku-suku yang ada di Desa Banuroja adalah
-                Bali, Nusa Tenggara, Gorontalo, Jawa, dan lainnya. Agama yang
-                ada di Desa Banuroja adalah Islam, Kristen, dan Hindu.
+                2.000 jiwa. Desa Banuroja dijuluki sebagai &quot;Desa
+                Pancasila&quot; karena masyarakatnya yang heterogen dan hidup
+                rukun berdampingan, walaupun mereka berasal dari berbagai suku
+                dan agama yang berbeda. Suku-suku yang ada di Desa Banuroja
+                adalah Bali, Nusa Tenggara, Gorontalo, Jawa, dan lainnya. Agama
+                yang ada di Desa Banuroja adalah Islam, Kristen, dan Hindu.
                 Masyarakat Desa Banuroja sangat toleransi satu sama lain, dan
-                mereka selalu menjaga kerukunan antar umat beragama. <br></br>{" "}
+                mereka selalu menjaga kerukunan antar umat beragama. <br></br>
                 <br></br>
                 Mata pencaharian utama penduduk Desa Banuroja adalah petani
                 jagung. Selain jagung, penduduk Desa Banuroja juga menanam buah
@@ -56,8 +56,8 @@ function Profil() {
                   Visi
                 </span>
                 <p>
-                  "Desa yang Mandiri dan Sejahtera dalam Kehidupan Masyarakat
-                  yang Sehat, Rukun, dan Damai serta Religius"
+                  &quot;Desa yang Mandiri dan Sejahtera dalam Kehidupan
+                  Masyarakat yang Sehat, Rukun, dan Damai serta Religius&quot;
                 </p>
               </div>
 
@@ -98,9 +98,9 @@ function Profil() {
                 Logo desa banuroja terinspirasi dari burung garuda pancasila
                 yang kemudian diadaptasi untuk mencerminkan Desa Banuroja
                 sebagai desa pancasila. Sayap dan ekor pada logo membentuk
-                huruf-huruf yang bertuliskan "banuroja". Bagian logo terbagi
-                menjadi 3 segmen yang merepresentasikan 3 agama di Banuroja,
-                yaitu Islam, Kristen, dan Hindu.
+                huruf-huruf yang bertuliskan &quot;banuroja&quot;. Bagian logo
+                terbagi menjadi 3 segmen yang merepresentasikan 3 agama di
+                Banuroja, yaitu Islam, Kristen, dan Hindu.
               </p>
             </div>
           </section>
