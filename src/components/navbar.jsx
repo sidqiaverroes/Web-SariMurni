@@ -51,12 +51,12 @@ function NavBar(props) {
       href: "/",
     },
     {
-      name: "Organisasi",
-      href: "/organisasi",
+      name: "Profil",
+      href: "/profil",
     },
     {
-      name: "Potensi",
-      href: "/potensi",
+      name: "Pemerintahan",
+      href: "/pemerintahan",
     },
     {
       name: "Peta",

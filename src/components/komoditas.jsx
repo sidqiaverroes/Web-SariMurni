@@ -96,7 +96,7 @@ function Komoditas() {
                       <div className="shadow-lg flex flex-col justify-center items-center rounded-md bg-gradient-to-r from-c-gold2 to-c-lightgold  h-[300px] w-[250px] mb-16 overflow-hidden">
                         <Image
                           src={image}
-                          alt="img"
+                          alt="komoditas"
                           width={500}
                           height={500}
                           className="relative w-auto h-full object-cover overflow-hidden"
