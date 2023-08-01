@@ -26,8 +26,24 @@ function NavBar(props) {
     };
   }, [prevScrollPos]);
 
+  const [isAtTop, setIsAtTop] = useState(true);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      const scrolledToTop = window.scrollY === 0;
+      setIsAtTop(scrolledToTop);
+    };
+
+    window.addEventListener("scroll", handleScroll);
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
+
   const router = useRouter();
   const isActive = (pathname) => router.pathname === pathname;
+  const isHome = router.pathname === "/";
 
   const navItem = [
     {
@@ -63,9 +79,12 @@ function NavBar(props) {
 
   return (
     <>
-      {/* This example requires Tailwind CSS v2.0+ */}
       <div
-        className={`bg-c-green shadow-md fixed top-0 w-full z-999 navbar ${
+        className={` shadow-md fixed top-0 w-full z-999 ${
+          isAtTop ? `${isHome ? "bg-transparent" : "bg-c-green"}` : "navbar"
+        } 
+        
+        ${
           visible ? "translate-y-0" : "-translate-y-full"
         } transition-transform duration-300 ease-in-out`}
       >

@@ -5,6 +5,7 @@ import Footer from "@/components/footer";
 function organisasi() {
   return (
     <>
+      <section className=" h-[2000px]"></section>
       <NavBar></NavBar>
       <Footer></Footer>
     </>
