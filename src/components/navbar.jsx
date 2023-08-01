@@ -1,5 +1,5 @@
 import Image from "next/image";
-
+import { useRouter } from "next/router";
 import React, { useState, useEffect } from "react";
 import Link from "next/link";
 
@@ -26,14 +26,24 @@ function NavBar(props) {
     };
   }, [prevScrollPos]);
 
-  //   const handleScrollTo = (event, targetId) => {
-  //     event.preventDefault();
-  //     const scrollTo = document.getElementById(targetId);
+  const [isAtTop, setIsAtTop] = useState(true);
 
-  //     if (scrollTo) {
-  //       scrollTo.scrollIntoView({ behavior: "smooth" });
-  //     }
-  //   };
+  useEffect(() => {
+    const handleScroll = () => {
+      const scrolledToTop = window.scrollY === 0;
+      setIsAtTop(scrolledToTop);
+    };
+
+    window.addEventListener("scroll", handleScroll);
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
+
+  const router = useRouter();
+  const isActive = (pathname) => router.pathname === pathname;
+  const isHome = router.pathname === "/";
 
   const navItem = [
     {
@@ -41,12 +51,12 @@ function NavBar(props) {
       href: "/",
     },
     {
-      name: "Organisasi",
-      href: "/organisasi",
+      name: "Profil",
+      href: "/profil",
     },
     {
-      name: "Potensi",
-      href: "/potensi",
+      name: "Pemerintahan",
+      href: "/pemerintahan",
     },
     {
       name: "Peta",
@@ -69,9 +79,12 @@ function NavBar(props) {
 
   return (
     <>
-      {/* This example requires Tailwind CSS v2.0+ */}
       <div
-        className={`bg-c-green shadow-md fixed top-0 w-full z-999 navbar ${
+        className={` shadow-md fixed top-0 w-full z-999 ${
+          isAtTop ? `${isHome ? "bg-transparent" : "bg-c-green"}` : "navbar"
+        } 
+        
+        ${
           visible ? "translate-y-0" : "-translate-y-full"
         } transition-transform duration-300 ease-in-out`}
       >
@@ -118,10 +131,18 @@ function NavBar(props) {
 
           <nav className="hidden md:flex space-x-10">
             {navItem.map((item, index) => (
-              <ul key={index}>
-                <Link href={item.href} className="text-white hover:text-c-gold">
+              <ul key={index} className="flex flex-col">
+                <Link
+                  href={item.href}
+                  className={` hover:text-c-gold ${
+                    isActive(`${item.href}`) ? "text-c-gold2" : "text-white"
+                  }`}
+                >
                   {item.name}
                 </Link>
+                {isActive(`${item.href}`) && (
+                  <div className="w-full h-[0.5px] bg-c-gold2" />
+                )}
               </ul>
             ))}
           </nav>
