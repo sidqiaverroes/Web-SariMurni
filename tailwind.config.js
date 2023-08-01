@@ -10,7 +10,7 @@ module.exports = {
       colors: {
         "c-darkgreen": "#063427",
         "c-green": "#06543C",
-        "c-lightgreen": "#38785D",
+        "c-lightgreen": "#62B894",
         "c-darkergold": "#926F2F",
         "c-darkgold": "#AF8C4A",
         "c-gold": "#C4A15D",
