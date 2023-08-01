@@ -102,7 +102,6 @@ function Pemerintahan() {
     {
       id: "perangkat7",
       title: "Kaur Umum",
-      title: "Kaur Pemberdayaan Masyarakat",
       name: "John Doe",
       nip: "1234567890",
       telp: "0812345678",
@@ -111,7 +110,6 @@ function Pemerintahan() {
     {
       id: "perangkat8",
       title: "Kaur Pemerintahan",
-      title: "Kaur Pemberdayaan Masyarakat",
       name: "John Doe",
       nip: "1234567890",
       telp: "0812345678",
@@ -120,7 +118,6 @@ function Pemerintahan() {
     {
       id: "perangkat9",
       title: "Kaur Keuangan",
-      title: "Kaur Pemberdayaan Masyarakat",
       name: "John Doe",
       nip: "1234567890",
       telp: "0812345678",
