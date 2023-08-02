@@ -29,9 +29,10 @@ function Hero() {
               Banuroja
             </h1>
             <p className="text-white text-center text-xl">
-              Lorem ipsum dolor sit amet consectetur. Adipiscing enim turpis
-              ultrices bibendum tellus amet nullam. Eu a morbi semper aliquam
-              duis interdum tincidunt diam morbi.
+              Desa Banuroja adalah desa transmigrasi yang terletak di Kecamatan
+              Randangan, Kabupaten Pohuwato, Provinsi Gorontalo. Desa Banuroja
+              dijuluki sebagai &quot;Desa Pancasila&quot; karena masyarakatnya
+              yang heterogen.
             </p>
           </div>
           <a

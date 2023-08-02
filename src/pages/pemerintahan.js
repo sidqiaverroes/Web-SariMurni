@@ -30,9 +30,9 @@ function Pemerintahan() {
 
         if (rect.top >= 0 && rect.bottom <= window.innerHeight) {
           activeSectionId = section.id;
-          console.log("top: ", rect.top);
-          console.log("bottom: ", rect.bottom);
-          console.log(window.innerHeight);
+          // console.log("top: ", rect.top);
+          // console.log("bottom: ", rect.bottom);
+          // console.log(window.innerHeight);
           break;
         }
       }
