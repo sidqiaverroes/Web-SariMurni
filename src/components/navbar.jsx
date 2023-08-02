@@ -63,7 +63,7 @@ function NavBar(props) {
       href: "/peta",
     },
     {
-      name: "Bumdes",
+      name: "BUMDes",
       href: "/bumdes",
     },
     {
@@ -149,14 +149,7 @@ function NavBar(props) {
             ))}
           </nav>
           {props.type && (
-            <div className="hidden md:flex items-center justify-end md:flex-1 lg:w-0">
-              <Link
-                href="/"
-                className="ml-8 whitespace-nowrap inline-flex items-center justify-center px-12 py-2 border border-transparent rounded-md shadow-sm text-base font-medium text-white bg-c-green hover:bg-c-darkgreen"
-              >
-                Seek Now
-              </Link>
-            </div>
+            <div className="hidden md:flex items-center justify-end md:flex-1 lg:w-0"></div>
           )}
         </div>
         {/*

@@ -53,72 +53,95 @@ function Pemerintahan() {
     {
       id: "perangkat1",
       title: "Kepala Desa",
-      name: "John Doe",
+      name: "Rony Handri Koyansow",
       nip: "1234567890",
       telp: "0812345678",
       image: "/perangkatdesa-img.jpg",
     },
     {
-      id: "perangkat2",
-      title: "Badan Permusyawaratan Desa",
-      name: "John Doe",
-      nip: "1234567890",
-      telp: "0812345678",
-      image: "/perangkatdesa2-img.jpg",
-    },
-    {
       id: "perangkat3",
       title: "Sekretaris Desa",
-      name: "John Doe",
+      name: "Muhammad Karyadi",
       nip: "1234567890",
       telp: "0812345678",
       image: "/perangkatdesa2-img.jpg",
     },
     {
       id: "perangkat4",
-      title: "Kaur Pembangunan",
-      name: "John Doe",
+      title: "Kepala Seksi Pemerintahan",
+      name: "Ahmad Faiz",
       nip: "1234567890",
       telp: "0812345678",
       image: "/perangkatdesa2-img.jpg",
     },
     {
       id: "perangkat5",
-      title: "Kaur Pemberdayaan Masyarakat",
-      name: "John Doe",
+      title: "Kepala Seksi Kesejahteraan Rakyat",
+      name: "Yulise Rosita",
       nip: "1234567890",
       telp: "0812345678",
       image: "/perangkatdesa2-img.jpg",
     },
     {
       id: "perangkat6",
-      title: "Kaur Kesejahteraan Rakyat",
-      title: "Kaur Pemberdayaan Masyarakat",
-      name: "John Doe",
+      title: "Kepala Seksi Pelayanan",
+      name: "Ni Kadek Evi Ekayuni",
       nip: "1234567890",
       telp: "0812345678",
       image: "/perangkatdesa2-img.jpg",
     },
     {
       id: "perangkat7",
-      title: "Kaur Umum",
-      name: "John Doe",
+      title: "Kepala Urusan Umum",
+      name: "Ni Wayan Fitriyani",
       nip: "1234567890",
       telp: "0812345678",
       image: "/perangkatdesa2-img.jpg",
     },
     {
       id: "perangkat8",
-      title: "Kaur Pemerintahan",
-      name: "John Doe",
+      title: "Kepala Urusan Perencanaan",
+      name: "Ni Ketut Murni",
       nip: "1234567890",
       telp: "0812345678",
       image: "/perangkatdesa2-img.jpg",
     },
     {
       id: "perangkat9",
-      title: "Kaur Keuangan",
-      name: "John Doe",
+      title: "Kepala Urusan Keuangan",
+      name: "Ester Linda Feronika Walean",
+      nip: "1234567890",
+      telp: "0812345678",
+      image: "/perangkatdesa2-img.jpg",
+    },
+    {
+      id: "perangkat10",
+      title: "Kepala Dusun I",
+      name: "I Wayan Suastana",
+      nip: "1234567890",
+      telp: "0812345678",
+      image: "/perangkatdesa2-img.jpg",
+    },
+    {
+      id: "perangkat11",
+      title: "Kepala Dusun II",
+      name: "I Wayan Suratnya",
+      nip: "1234567890",
+      telp: "0812345678",
+      image: "/perangkatdesa2-img.jpg",
+    },
+    {
+      id: "perangkat12",
+      title: "Kepala Dusun III",
+      name: "Ruspian Majid",
+      nip: "1234567890",
+      telp: "0812345678",
+      image: "/perangkatdesa2-img.jpg",
+    },
+    {
+      id: "perangkat13",
+      title: "Kepala Dusun IV",
+      name: "Muhamad Masrur",
       nip: "1234567890",
       telp: "0812345678",
       image: "/perangkatdesa2-img.jpg",
@@ -174,10 +197,10 @@ function Pemerintahan() {
               <h3>Struktur Pemerintahan</h3>
               <div className="flex flex-col justify-center items-center rounded-md h-auto w-full mb-16 overflow-hidden">
                 <Image
-                  src="/strukturorg-img.png"
+                  src="/strukturbanu.svg"
                   alt="struktur pemerintahan"
-                  width={700}
-                  height={700}
+                  width={100}
+                  height={100}
                   className="relative w-full h-auto object-cover"
                 ></Image>
               </div>

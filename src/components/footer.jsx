@@ -59,7 +59,7 @@ function Footer() {
                   Banuroja, Kec. Randangan, Kabupaten Pohuwato, Gorontalo 96469
                 </p>
                 <p>Email: asdasdasdsa</p>
-                <p>No.Telp:</p>
+                <p>No.Telp: +62852-3828-3882</p>
               </div>
             </div>
           </div>
