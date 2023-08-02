@@ -41,9 +41,10 @@ function Footer() {
             <div className="flex flex-col gap-4 w-1/2 text-white">
               <h1 className=" text-2xl">Desa Banuroja</h1>
               <p className="text-base">
-                Lorem ipsum dolor sit amet consectetur. Elit dolor vestibulum
-                nunc donec et volutpat. Tellus metus amet amet in fringilla
-                pellentesque vulputate. Non nunc sapien tempus in.
+                Desa Banuroja adalah desa transmigrasi yang terletak di
+                Kecamatan Randangan, Kabupaten Pohuwato, Provinsi Gorontalo.
+                Desa Banuroja dijuluki sebagai "Desa Pancasila" karena
+                masyarakatnya yang heterogen.
               </p>
               <div id="socmed" className="flex flex-row gap-4 pt-2">
                 {socmed.map((item, index) => (
@@ -55,9 +56,7 @@ function Footer() {
               <h1 className=" text-2xl">Kontak</h1>
               <div className="flex flex-col gap-1 text-base">
                 <p>
-                  Lorem ipsum dolor sit amet consectetur. Elit dolor vestibulum
-                  nunc donec et volutpat. Tellus metus amet amet in fringilla
-                  pellentesque vulputate. Non nunc sapien tempus in.
+                  Banuroja, Kec. Randangan, Kabupaten Pohuwato, Gorontalo 96469
                 </p>
                 <p>Email: asdasdasdsa</p>
                 <p>No.Telp:</p>
