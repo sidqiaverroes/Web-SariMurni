@@ -8,14 +8,14 @@ import Galeri from "@/components/galeri";
 
 export default function Home() {
   return (
-    <div>
-      <Hero></Hero>
-      <Peta></Peta>
-      <Komoditas></Komoditas>
+    <>
+      {/* <Hero></Hero> */}
+      {/* <Peta></Peta> */}
+      {/* <Komoditas></Komoditas> */}
       <Berita></Berita>
       <Galeri></Galeri>
       <NavBar></NavBar>
       <Footer></Footer>
-    </div>
+    </>
   );
 }
