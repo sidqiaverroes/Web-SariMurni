@@ -1,5 +1,6 @@
 import "leaflet/dist/leaflet.css";
 import React from "react";
+import Link from "next/link";
 import { MapContainer, TileLayer, Marker, Popup, Polygon } from "react-leaflet";
 import "leaflet/dist/leaflet.css";
 import "leaflet-defaulticon-compatibility/dist/leaflet-defaulticon-compatibility.webpack.css"; // Re-uses images from ~leaflet package
@@ -58,12 +59,12 @@ function Peta() {
             <p className=" font-extrabold text-xl text-center">
               Peta Desa Banuroja
             </p>
-            <a
+            <Link
               href="/peta"
               className="text-c-darkgreen rounded-full px-6 font-extrabold bg-gradient-to-r from-c-gold2 to-c-lightgold hover:-translate-y-1 hover:cursor-pointer duration-500"
             >
               Jelajahi
-            </a>
+            </Link>
           </div>
         </div>
       </div>

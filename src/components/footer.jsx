@@ -43,7 +43,7 @@ function Footer() {
               <p className="text-base">
                 Desa Banuroja adalah desa transmigrasi yang terletak di
                 Kecamatan Randangan, Kabupaten Pohuwato, Provinsi Gorontalo.
-                Desa Banuroja dijuluki sebagai "Desa Pancasila" karena
+                Desa Banuroja dijuluki sebagai &quot;Desa Pancasila&quot; karena
                 masyarakatnya yang heterogen.
               </p>
               <div id="socmed" className="flex flex-row gap-4 pt-2">
