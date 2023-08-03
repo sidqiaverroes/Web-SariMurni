@@ -66,7 +66,7 @@ function Bumdes() {
           className="w-full h-full object-cover"
         />
       </div>
-      <div className="flex flex-col justify-center items-center w-full px-8 lg:px-20">
+      <div className="flex flex-col justify-center items-center w-full px-8 md:px-20">
         <section
           data-aos="fade-up"
           className="flex flex-col justify-center items-center w-full max-w-[1080px] gap-24 pb-24"
@@ -149,9 +149,9 @@ function Bumdes() {
             <span className="text-c-green">Penanggung Jawab Manajemen </span>
             BUMDes Satya Muda Creative Banuroja
           </h3>
-          <div className="overflow-scroll">
-            <table className="w-full rounded-md overflow-hidden shadow-md border border-c-green">
-              <tr className="bg-c-green text-white">
+          <div className="flex justify-start lg:justify-center items-center w-full overflow-x-scroll">
+            <table className="min-w-[800px] rounded-md shadow-md overflow-hidden">
+              <tr className=" bg-c-green text-white">
                 <th className="py-2">No</th>
                 <th className="py-2">Nama</th>
                 <th className="py-2">Kedudukan</th>
@@ -163,28 +163,28 @@ function Bumdes() {
                     <td
                       className={`${
                         (index + 1) % 2 == 0 ? "bg-c-gold" : "bg-c-darkgold"
-                      } text-white py-2`}
+                      } text-white p-2`}
                     >
                       {data.number}
                     </td>
                     <td
-                      className={
+                      className={`${
                         (index + 1) % 2 == 0 ? "bg-gray-200" : "bg-gray-100"
-                      }
+                      } px-4`}
                     >
                       {data.name}
                     </td>
                     <td
-                      className={
+                      className={`${
                         (index + 1) % 2 == 0 ? "bg-gray-200" : "bg-gray-100"
-                      }
+                      } px-4`}
                     >
                       {data.position}
                     </td>
                     <td
-                      className={
+                      className={`${
                         (index + 1) % 2 == 0 ? "bg-gray-200" : "bg-gray-100"
-                      }
+                      } px-4`}
                     >
                       {data.desc}
                     </td>
