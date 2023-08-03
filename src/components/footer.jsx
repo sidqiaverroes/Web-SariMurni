@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 import { BsFacebook, BsInstagram, BsYoutube } from "react-icons/bs";
 
@@ -7,28 +8,36 @@ function Footer() {
       name: "Facebook",
       url: "-",
       icon: (
-        <div className=" bg-c-gold2 hover:bg-c-gold hover:cursor-pointer rounded-full p-3 text-c-darkgreen shadow-md">
-          <BsFacebook />
-        </div>
+        <Link href="" target="_blank">
+          <div className=" bg-c-gold2 hover:bg-c-gold hover:cursor-pointer rounded-full p-3 text-c-darkgreen shadow-md">
+            <BsFacebook />
+          </div>
+        </Link>
       ),
     },
     {
       name: "Instagram",
       url: "-",
       icon: (
-        <div className=" bg-c-gold2 hover:bg-c-gold hover:cursor-pointer rounded-full p-3 text-c-darkgreen shadow-md">
-          {" "}
-          <BsInstagram />
-        </div>
+        <Link
+          href="https://www.instagram.com/randanganbenderang/"
+          target="_blank"
+        >
+          <div className=" bg-c-gold2 hover:bg-c-gold hover:cursor-pointer rounded-full p-3 text-c-darkgreen shadow-md">
+            <BsInstagram />
+          </div>
+        </Link>
       ),
     },
     {
       name: "Youtube",
       url: "-",
       icon: (
-        <div className=" bg-c-gold2 hover:bg-c-gold hover:cursor-pointer rounded-full p-3 text-c-darkgreen shadow-md">
-          <BsYoutube />
-        </div>
+        <Link href="" target="_blank">
+          <div className=" bg-c-gold2 hover:bg-c-gold hover:cursor-pointer rounded-full p-3 text-c-darkgreen shadow-md">
+            <BsYoutube />
+          </div>
+        </Link>
       ),
     },
   ];
@@ -36,9 +45,9 @@ function Footer() {
   return (
     <>
       <div className="flex flex-col">
-        <div className="flex justify-center bg-c-green py-[96px]">
-          <div className="flex flex-row max-w-[1080px] gap-24 justify-between w-full">
-            <div className="flex flex-col gap-4 w-1/2 text-white">
+        <div className="flex justify-center w-full bg-c-green py-[96px]">
+          <div className="flex flex-col lg:flex-row justify-center items-start max-w-[1080px] px-10 md:px-20 lg:px-0 gap-24 w-full">
+            <div className="flex flex-col w-full lg:w-1/2 gap-4 text-white">
               <h1 className=" text-2xl">Desa Banuroja</h1>
               <p className="text-base">
                 Desa Banuroja adalah desa transmigrasi yang terletak di
@@ -52,7 +61,7 @@ function Footer() {
                 ))}
               </div>
             </div>
-            <div className="flex flex-col gap-4 w-1/2 text-white">
+            <div className="flex flex-col w-full lg:w-1/2 gap-4  text-white">
               <h1 className=" text-2xl">Kontak</h1>
               <div className="flex flex-col gap-1 text-base">
                 <p>
@@ -66,7 +75,7 @@ function Footer() {
         </div>
 
         <div className="flex justify-center bg-c-darkgreen">
-          <div className="flex flex-row max-w-[1080px] text-base justify-between w-full py-8">
+          <div className="flex flex-col lg:flex-row max-w-[1080px] text-base gap-4 lg:justify-between w-full px-10 md:px-20 lg:px-0 py-8">
             <h1 className="text-c-gold2">Website Desa</h1>
             <p className="text-c-lightgold">
               KKN-PPM Universitas Gadjah Mada Randangan Benderang 2023

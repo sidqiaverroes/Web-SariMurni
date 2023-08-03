@@ -8,7 +8,7 @@ import Galeri from "@/components/galeri";
 
 export default function Home() {
   return (
-    <div>
+    <>
       <Hero></Hero>
       <Peta></Peta>
       <Komoditas></Komoditas>
@@ -16,6 +16,6 @@ export default function Home() {
       <Galeri></Galeri>
       <NavBar></NavBar>
       <Footer></Footer>
-    </div>
+    </>
   );
 }

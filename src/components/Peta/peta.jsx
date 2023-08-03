@@ -31,12 +31,12 @@ function Peta() {
       className=" flex justify-center items-center w-full py-24 relative z-0"
       data-aos="fade-up"
     >
-      <div className="flex flex-col max-w-[1080px] w-full gap-12">
-        <div className="flex flex-col justify-center items-center w-full">
+      <div className="flex flex-col max-w-[1080px] w-full gap-12 px-8 lg:px-0">
+        <div className="flex flex-col justify-center items-center w-full text-center">
           <h2>Peta Wilayah</h2>
           {/* <h6>Lorem ipsum dolor sit amet consectetur.</h6> */}
         </div>
-        <div className="flex felx-row bg-c-green w-full overflow-hidden rounded-xl shadow-md">
+        <div className="flex flex-col lg:flex-row bg-c-green w-full overflow-hidden rounded-xl shadow-md">
           <MapContainer
             center={[0.5481339, 121.7880643]}
             zoom={14}
@@ -55,7 +55,7 @@ function Peta() {
             />
           </MapContainer>
 
-          <div className="flex flex-col justify-center items-center text-white gap-4">
+          <div className="flex flex-col justify-center items-center text-white gap-2 lg:gap-4 py-4">
             <p className=" font-extrabold text-xl text-center">
               Peta Desa Banuroja
             </p>

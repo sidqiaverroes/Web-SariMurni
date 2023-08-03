@@ -53,14 +53,16 @@ function Berita() {
       className="flex justify-center items-center w-full py-24"
     >
       <div
-        className="flex flex-col max-w-[1080px] w-full gap-12"
+        className="flex flex-col max-w-[1080px] w-full gap-12 px-8 md:px-20 lg:px-0"
         data-aos="fade-up"
       >
         <div className="flex flex-col justify-center items-center w-full">
-          <h2>Berita Terkini</h2>
-          <h6>Informasi aktual tentang Desa Banuroja.</h6>
+          <h2 className="text-center">Berita Terkini</h2>
+          <h6 className="text-center">
+            Informasi aktual tentang Desa Banuroja.
+          </h6>
         </div>
-        <div className="flex flex-row w-full gap-8">
+        <div className="flex flex-col lg:flex-row w-full gap-8 ">
           <div className="group flex flex-col w-full shadow-lg border border-c-gold2 rounded-md overflow-hidden hover:cursor-pointer hover:-translate-y-1 duration-200">
             <div className="w-auto h-full overflow-hidden">
               <Image
@@ -68,37 +70,41 @@ function Berita() {
                 alt="img"
                 width={500}
                 height={500}
-                className="relative w-auto h-full object-cover overflow-hidden group-hover:scale-105 duration-200"
+                className="relative w-full h-full object-cover overflow-hidden group-hover:scale-105 duration-200"
               ></Image>
             </div>
             <div className="flex flex-col bg-white items-start justify-center gap-1 p-10">
               <p className="text-sm font-medium text-white bg-c-green rounded-full px-4 mb-3">
                 {latestBerita[0].date}
               </p>
-              <p className="text-xl font-extrabold">{latestBerita[0].title}</p>
-              <p className="text-base">{latestBerita[0].desc}</p>
+              <p className="text-xl font-extrabold">
+                {truncateText(latestBerita[0].title, descMaxLength)}
+              </p>
+              <p className="text-base">
+                {truncateText(latestBerita[0].desc, descMaxLength)}
+              </p>
               {/* <a className="flex justify-center items-center bg-c-darkgreen text-white rounded-full px-8 py-1 hover:bg-c-green hover:translate-x-1 hover:shadow-lg shadow-md duration-200 mt-4">
                 Selengkapnya
               </a> */}
             </div>
           </div>
-          <div className="flex flex-col gap-8">
+          <div className="flex flex-col gap-8 ">
             {selectedBerita.map((item, index) => {
               return (
                 <div
                   key={index}
-                  className="group flex flex-row justify-center items-center w-[400px] h-[200px] shadow-lg border border-c-gold2 rounded-md overflow-hidden hover:cursor-pointer hover:-translate-y-1 duration-200"
+                  className="group flex flex-col lg:flex-row justify-center items-center lg:w-[400px] lg:h-[200px] shadow-lg border border-c-gold2 rounded-md overflow-hidden hover:cursor-pointer hover:-translate-y-1 duration-200"
                 >
-                  <div className="w-auto h-full overflow-hidden">
+                  <div className="w-full h-full overflow-hidden">
                     <Image
                       src={item.image}
                       alt="img"
                       width={500}
                       height={500}
-                      className="relative w-auto h-full object-cover overflow-hidden group-hover:scale-105 duration-200"
+                      className="relative w-full h-full object-cover overflow-hidden group-hover:scale-105 duration-200"
                     ></Image>
                   </div>
-                  <div className="flex flex-col justify-start items-start w-[250px] bg-white px-6 py-4 gap-2">
+                  <div className="flex flex-col justify-start items-start w-full lg:w-[250px] bg-white p-10 lg:px-6 lg:py-4 gap-2">
                     <p className="text-sm font-medium text-white bg-c-green rounded-full px-4 mb-1">
                       {item.date}
                     </p>

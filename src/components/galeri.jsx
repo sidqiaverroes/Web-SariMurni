@@ -14,7 +14,7 @@ const GalleryItem = ({ imageSrc, title }) => {
 
   return (
     <div
-      className="group flex flex-col w-[300px] h-[300px] bg-white hover:translate-y-0 hover:shadow-lg hover:cursor-pointer shadow-md duration-200 hover14"
+      className="group flex flex-col w-auto h-[300px] bg-white hover:translate-y-0 hover:shadow-lg hover:cursor-pointer shadow-md duration-200 lg:hover14"
       onMouseEnter={handleMouseEnter}
       onMouseLeave={handleMouseLeave}
     >
@@ -23,7 +23,7 @@ const GalleryItem = ({ imageSrc, title }) => {
         width={500}
         height={500}
         alt="galeri-img"
-        className=" w-auto h-full object-cover overflow-hidden group-hover:scale-110 duration-200 hover:cursor-pointer"
+        className=" w-full h-full object-cover overflow-hidden group-hover:scale-110 duration-200 hover:cursor-pointer"
       ></Image>
       {isHovered && (
         <div
@@ -76,11 +76,11 @@ function Galeri() {
         className="flex justify-center items-center w-full py-24 bg-gradient-to-t from-c-gold2 to-c-lightgold"
         data-aos="fade-up"
       >
-        <div className="flex flex-col gap-8">
+        <div className="flex flex-col max-w-[1080px] gap-8">
           <div className="flex justify-center items-center w-full">
             <h2>Galeri</h2>
           </div>
-          <div className="grid lg:grid-cols-3 md:grid-cols-2 gap-8">
+          <div className="grid lg:grid-cols-3 md:grid-cols-2 gap-8 px-8 lg:px-0">
             {selectedGaleri.map((item, index) => {
               return (
                 <span key={index} className="overflow-hidden rounded-lg">

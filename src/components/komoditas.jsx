@@ -51,38 +51,51 @@ function Komoditas() {
       image: "/kelapa-img.png",
     },
   ];
+
   const [swiper, setSwiper] = useState(null);
+  const breakpoints = {
+    0: {
+      slidesPerView: 1,
+    },
+
+    768: {
+      slidesPerView: 2.5,
+    },
+    1024: {
+      slidesPerView: 3,
+    },
+  };
 
   return (
     <>
       <section className="flex justify-center items-center w-full bg-komoditas-image bg-cover bg-center h-[670px] relative z-0">
         <div
-          className="flex flex-col max-w-[1080px] w-full gap gap-12"
+          className="flex flex-col max-w-[1080px] w-full gap-12 lg:px-0 px-10"
           data-aos="fade-up"
         >
-          <div className="flex flex-col justify-center items-center w-full">
-            <h2 className="text-white">Komoditas Unggulan</h2>
-            <h6 className="text-c-lightgold">
+          <div className="flex flex-col justify-center items-center w-full gap-2">
+            <h2 className="text-white text-center">Komoditas Unggulan</h2>
+            <h6 className="text-c-lightgold text-center">
               Lorem ipsum dolor sit amet consectetur.
             </h6>
           </div>
 
-          <div className="flex flex-row items-center">
+          <div className="flex md:flex-row items-center gap-4">
             <div
               onClick={() => swiper.slidePrev()}
-              className="bg-white p-2 rounded-full hover:cursor-pointer hover:-translate-y-1 duration-200 text-c-darkgreen"
+              className="bg-white p-2 rounded-full hover:cursor-pointer hover:-translate-y-1 duration-200 text-c-darkgreen lg:block hidden"
             >
               <BiChevronLeft size={24} />
             </div>
             <Swiper
               loop={true}
               onSwiper={(swiper) => setSwiper(swiper)}
-              slidesPerView={3}
+              breakpoints={breakpoints}
               spaceBetween={0}
               centeredSlides={true}
               autoplay={{
                 delay: 3000,
-                disableOnInteraction: false,
+                disableOnInteraction: true,
               }}
               grabCursor
               modules={[Autoplay, Pagination, Navigation]}
@@ -92,7 +105,7 @@ function Komoditas() {
                 const { _id, name, desc, image } = item;
                 return (
                   <SwiperSlide key={index}>
-                    <div className="flex overflow-visible justify-center items-center">
+                    <div className="flex w-full overflow-visible justify-center items-center">
                       <div className="shadow-lg flex flex-col justify-center items-center rounded-md bg-gradient-to-r from-c-gold2 to-c-lightgold  h-[300px] w-[250px] mb-16 overflow-hidden">
                         <Image
                           src={image}
@@ -101,7 +114,7 @@ function Komoditas() {
                           height={500}
                           className="relative w-auto h-full object-cover overflow-hidden"
                         ></Image>
-                        <div className="flex flex-row items-center justify-center gap-8 py-2">
+                        <div className="flex flex-row items-center justify-between gap-4 py-2 lg:px-0 px-4">
                           <p className="text-c-darkgreen font-extrabold text-lg">
                             {name}
                           </p>
@@ -115,9 +128,10 @@ function Komoditas() {
                 );
               })}
             </Swiper>
+
             <div
               onClick={() => swiper.slideNext()}
-              className="bg-white p-2 rounded-full hover:cursor-pointer hover:-translate-y-1 duration-200 text-c-darkgreen"
+              className="bg-white p-2 rounded-full hover:cursor-pointer hover:-translate-y-1 duration-200 text-c-darkgreen lg:block hidden"
             >
               <BiChevronRight size={24} />
             </div>
