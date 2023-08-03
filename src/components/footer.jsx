@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 import { BsFacebook, BsInstagram, BsYoutube } from "react-icons/bs";
 
@@ -7,28 +8,36 @@ function Footer() {
       name: "Facebook",
       url: "-",
       icon: (
-        <div className=" bg-c-gold2 hover:bg-c-gold hover:cursor-pointer rounded-full p-3 text-c-darkgreen shadow-md">
-          <BsFacebook />
-        </div>
+        <Link href="" target="_blank">
+          <div className=" bg-c-gold2 hover:bg-c-gold hover:cursor-pointer rounded-full p-3 text-c-darkgreen shadow-md">
+            <BsFacebook />
+          </div>
+        </Link>
       ),
     },
     {
       name: "Instagram",
       url: "-",
       icon: (
-        <div className=" bg-c-gold2 hover:bg-c-gold hover:cursor-pointer rounded-full p-3 text-c-darkgreen shadow-md">
-          {" "}
-          <BsInstagram />
-        </div>
+        <Link
+          href="https://www.instagram.com/randanganbenderang/"
+          target="_blank"
+        >
+          <div className=" bg-c-gold2 hover:bg-c-gold hover:cursor-pointer rounded-full p-3 text-c-darkgreen shadow-md">
+            <BsInstagram />
+          </div>
+        </Link>
       ),
     },
     {
       name: "Youtube",
       url: "-",
       icon: (
-        <div className=" bg-c-gold2 hover:bg-c-gold hover:cursor-pointer rounded-full p-3 text-c-darkgreen shadow-md">
-          <BsYoutube />
-        </div>
+        <Link href="" target="_blank">
+          <div className=" bg-c-gold2 hover:bg-c-gold hover:cursor-pointer rounded-full p-3 text-c-darkgreen shadow-md">
+            <BsYoutube />
+          </div>
+        </Link>
       ),
     },
   ];

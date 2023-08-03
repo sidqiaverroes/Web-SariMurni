@@ -9,9 +9,9 @@ import Galeri from "@/components/galeri";
 export default function Home() {
   return (
     <>
-      {/* <Hero></Hero> */}
-      {/* <Peta></Peta> */}
-      {/* <Komoditas></Komoditas> */}
+      <Hero></Hero>
+      <Peta></Peta>
+      <Komoditas></Komoditas>
       <Berita></Berita>
       <Galeri></Galeri>
       <NavBar></NavBar>

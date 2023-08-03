@@ -53,7 +53,7 @@ function Berita() {
       className="flex justify-center items-center w-full py-24"
     >
       <div
-        className="flex flex-col max-w-[1080px] w-full gap-12"
+        className="flex flex-col max-w-[1080px] w-full gap-12 px-8 md:px-20 lg:px-0"
         data-aos="fade-up"
       >
         <div className="flex flex-col justify-center items-center w-full">
@@ -62,7 +62,7 @@ function Berita() {
             Informasi aktual tentang Desa Banuroja.
           </h6>
         </div>
-        <div className="flex flex-col lg:flex-row w-full gap-8 px-8 md:px-20 lg:px-0">
+        <div className="flex flex-col lg:flex-row w-full gap-8 ">
           <div className="group flex flex-col w-full shadow-lg border border-c-gold2 rounded-md overflow-hidden hover:cursor-pointer hover:-translate-y-1 duration-200">
             <div className="w-auto h-full overflow-hidden">
               <Image
