@@ -103,6 +103,25 @@ function Bumdes() {
             <Tabel />
           </div>
         </section>
+
+        <section
+          data-aos="fade-up"
+          className="flex flex-col justify-center items-center w-full max-w-[1080px] py-24 gap-8"
+        >
+          <h3 className="lg:w-1/2 text-center">
+            <span className="text-c-green">Struktur Manajemen BUMDes </span>
+            Satya Muda Creative Banuroja
+          </h3>
+          <div className="flex flex-col justify-center items-center rounded-md h-auto w-full mb-16 overflow-hidden">
+            <Image
+              src="/strukturbumdes.svg"
+              alt="struktur bumdes"
+              width={100}
+              height={100}
+              className="relative w-full h-auto object-cover"
+            ></Image>
+          </div>
+        </section>
       </div>
 
       <NavBar></NavBar>
