@@ -76,8 +76,7 @@ function Komoditas() {
           <div className="flex flex-col justify-center items-center w-full gap-2">
             <h2 className="text-white text-center">Komoditas Unggulan</h2>
             <h6 className="text-c-lightgold text-center">
-              Pertanian menjadi sektor yang menghasilkan komoditas unggulan di
-              Desa Banuroja.
+              Pertanian menjadi sektor unggulan di Desa Banuroja.
             </h6>
           </div>
 
