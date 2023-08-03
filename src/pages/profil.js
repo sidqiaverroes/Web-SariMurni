@@ -6,13 +6,13 @@ import Footer from "@/components/footer";
 function Profil() {
   return (
     <>
-      <div className="flex justify-center items-start mt-16 w-full">
+      <div className="flex justify-center items-start mt-16 w-full px-8">
         <div className="flex flex-col justify-center items-start w-full max-w-[1080px]">
           <section
             data-aos="fade-up"
-            className="flex flex-row-reverse justify-start items-center py-24 gap-16"
+            className="flex flex-col md:flex-row-reverse justify-start items-center py-24 gap-16"
           >
-            <div className="flex flex-col gap-4">
+            <div className="flex flex-col gap-4 w-full">
               <span className=" flex flex-col">
                 <h3 className="text-xl text-c-darkgold">Tentang</h3>
                 <h2 className=" text-c-darkgreen">Desa Banuroja</h2>
@@ -40,13 +40,15 @@ function Profil() {
                 seluruh Indonesia.
               </p>
             </div>
-            <Image
-              src="/desa.png"
-              alt="img"
-              width={500}
-              height={500}
-              className=" w-80 h-auto rounded-full"
-            ></Image>
+            <div className="flex overflow-hidden rounded-full w-full h-auto">
+              <Image
+                src="/desa.png"
+                alt="img"
+                width={500}
+                height={500}
+                className="w-full object-cover"
+              ></Image>
+            </div>
           </section>
 
           <section
@@ -56,8 +58,8 @@ function Profil() {
             <h3>
               <span className=" text-c-darkgold">Visi dan</span> Misi Desa
             </h3>
-            <div className="flex flex-row h-[350px] justify-start items-start gap-8">
-              <div className="flex flex-col w-[350px] justify-start gap-4 h-full bg-white from-white via-white to-c-lightgold border border-c-gold2 rounded-xl shadow-lg p-20">
+            <div className="flex flex-col lg:flex-row h-full lg:h-[350px] justify-start items-start gap-8 ">
+              <div className="flex flex-col w-full lg:w-[350px] justify-start gap-4 h-full bg-white from-white via-white to-c-lightgold border border-c-gold2 rounded-xl shadow-lg p-8 lg:p-20">
                 <span className="bg-c-darkgold max-w-min font-bold text-white rounded-full px-8 py-1">
                   Visi
                 </span>
@@ -67,7 +69,7 @@ function Profil() {
                 </p>
               </div>
 
-              <div className="flex flex-col justify-start h-full gap-4 bg-white from-white via-white to-c-lightgreen border border-c-lightgreen rounded-xl shadow-lg p-20">
+              <div className="flex flex-col justify-start h-full gap-4 bg-white from-white via-white to-c-lightgreen border border-c-lightgreen rounded-xl shadow-lg p-8 lg:p-20">
                 <span className="bg-c-green max-w-min font-bold text-white rounded-full px-8 py-1">
                   Misi
                 </span>
@@ -90,10 +92,10 @@ function Profil() {
         <div className="flex flex-col justify-center items-start w-full max-w-[1080px] ">
           <section
             data-aos="fade-up"
-            className="flex flex-row w-full justify-center items-center py-32"
+            className="flex flex-row w-full justify-center items-center py-32 px-8 lg:px-0"
           >
-            <div className="flex flex-col justify-center items-center gap-4 px-48">
-              <span className=" flex flex-col items-center">
+            <div className="flex flex-col justify-center items-center gap-4 lg:px-48">
+              <span className=" flex flex-col items-center text-center">
                 <h3 className="text-xl text-c-gold2">Tentang</h3>
                 <h2 className=" text-white">Logo Desa Banuroja</h2>
               </span>
@@ -115,13 +117,13 @@ function Profil() {
           </section>
         </div>
       </div>
-      <div className="flex justify-center items-start w-full bg-white">
-        <div className="flex flex-col justify-center items-start w-full max-w-[1080px]">
+      <div className="flex justify-center items-start  w-full bg-white">
+        <div className="flex flex-col justify-center items-start w-full max-w-[1080px] px-8">
           <section
             data-aos="fade-up"
-            className="flex flex-row justify-start items-center py-48 gap-16"
+            className="flex flex-col md:flex-row justify-start items-center py-48 gap-16"
           >
-            <div className="flex flex-col gap-4">
+            <div className="flex flex-col gap-4 w-full">
               <span className=" flex flex-col">
                 <h3 className="text-xl text-c-darkgold">Sejarah</h3>
                 <h2 className=" text-c-darkgreen">Desa Banuroja</h2>
@@ -143,16 +145,19 @@ function Profil() {
                 sangat indah dan nyaman untuk ditinggali.
               </p>
             </div>
-            <Image
-              src="/galeri3.png"
-              alt="img"
-              width={500}
-              height={500}
-              className=" w-80 h-auto rounded-full"
-            ></Image>
+            <div className="flex overflow-hidden rounded-full w-full h-auto">
+              <Image
+                src="/galeri3.png"
+                alt="img"
+                width={500}
+                height={500}
+                className="w-full"
+              ></Image>
+            </div>
           </section>
         </div>
       </div>
+
       <NavBar></NavBar>
       <Footer></Footer>
     </>

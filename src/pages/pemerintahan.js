@@ -151,9 +151,9 @@ function Pemerintahan() {
   return (
     <>
       <div className="flex justify-center items-start mt-16 w-full">
-        <div className="flex flex-row justify-center items-start max-w-[1080px] w-full my-16 gap-16 ">
+        <div className="flex flex-row justify-center items-start max-w-[1080px] w-full my-16 gap-16 px-8 md:px-0">
           {/* SIDEBAR BEGIN */}
-          <div className="flex flex-col min-w-fit gap-3 sticky top-24">
+          <div className="hidden md:flex flex-col min-w-fit gap-3 sticky top-24">
             <a
               onClick={(event) => handleClick(event, "struktur")}
               className="group flex flex-row gap-4"
@@ -213,19 +213,21 @@ function Pemerintahan() {
               {content.map((item, index) => {
                 return (
                   <section key={index} id={item.id} className="section">
-                    <div className="flex flex-row w-full h-[200px] border border-gray-200 rounded-lg shadow-md overflow-hidden">
-                      <Image
-                        src={item.image}
-                        alt="profil perangkat desa"
-                        width={500}
-                        height={500}
-                        className="relative w-[400px] object-cover overflow-hidden"
-                      ></Image>
+                    <div className="flex flex-col md:flex-row w-full h-[600px] md:h-[200px] border border-gray-200 rounded-lg shadow-md overflow-hidden">
+                      <div className="overflow-hidden h-full">
+                        <Image
+                          src={item.image}
+                          alt="profil perangkat desa"
+                          width={500}
+                          height={500}
+                          className="w-full h-full object-cover"
+                        ></Image>
+                      </div>
 
-                      <div className="flex flex-col w-full p-10">
+                      <div className="flex flex-col w-full p-10 gap-2">
                         <h5>{item.title}</h5>
                         <h4 className="text-c-green">{item.name}</h4>
-                        <h5 className="text-c-darkgreen">NIP: {item.nip}</h5>
+                        {/* <h5 className="text-c-darkgreen">NIP: {item.nip}</h5> */}
                         <a className="flex justify-center items-center w-min bg-c-darkgreen text-white rounded-full px-10 py-1 mt-4 hover:bg-c-green hover:-translate-y-1 hover:shadow-lg shadow-md duration-200">
                           Hubungi
                         </a>
