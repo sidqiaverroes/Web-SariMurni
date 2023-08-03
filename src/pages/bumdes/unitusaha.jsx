@@ -2,7 +2,7 @@ import React from "react";
 import NavBar from "@/components/navbar";
 import Footer from "@/components/footer";
 
-function Bumdes() {
+function Galeri() {
   return (
     <>
       <div className="flex justify-center items-center w-full h-screen">
@@ -14,4 +14,4 @@ function Bumdes() {
   );
 }
 
-export default Bumdes;
+export default Galeri;
