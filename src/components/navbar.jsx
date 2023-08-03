@@ -90,7 +90,7 @@ function NavBar(props) {
           visible ? "translate-y-0" : "-translate-y-full"
         } transition-all duration-500 ease-in-out`}
       >
-        <div className="flex justify-between items-center max-w-[1080px] w-full mx-auto h-16 xl:px-0 px-8">
+        <div className="flex justify-between items-center max-w-[1080px] w-full mx-auto h-16 xl:px-0 md:px-20 px-8">
           <div className="flex justify-start items-center gap-4">
             <Link href="/" style={{ width: "40px", height: "40 px" }}>
               <Image
@@ -101,7 +101,7 @@ function NavBar(props) {
                 height={40}
               />
             </Link>
-            <span className=" font-bold text-c-gold2 text-base">
+            <span className="leading-none font-bold text-c-gold2 text-base">
               Desa Banuroja
             </span>
           </div>
@@ -131,7 +131,7 @@ function NavBar(props) {
             </button>
           </div>
 
-          <nav className="hidden md:flex space-x-10">
+          <nav className="hidden md:flex flex-row justify-between gap-3 lg:gap-6">
             {navItem.map((item, index) => (
               <ul key={index} className="flex flex-col">
                 <Link

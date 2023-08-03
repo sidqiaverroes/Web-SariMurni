@@ -59,18 +59,18 @@ function Komoditas() {
     },
 
     768: {
-      slidesPerView: 2.5,
+      slidesPerView: 2,
     },
     1024: {
-      slidesPerView: 3,
+      slidesPerView: 2.5,
     },
   };
 
   return (
     <>
-      <section className="flex justify-center items-center w-full bg-komoditas-image bg-cover bg-center h-[670px] relative z-0">
+      <section className="flex justify-center items-center w-full bg-komoditas-image bg-cover bg-center h-[670px] relative z-0 md:px-20 px-8">
         <div
-          className="flex flex-col max-w-[1080px] w-full gap-12 lg:px-0 px-10"
+          className="flex flex-col max-w-[1080px] w-full gap-12 "
           data-aos="fade-up"
         >
           <div className="flex flex-col justify-center items-center w-full gap-2">

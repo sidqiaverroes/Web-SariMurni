@@ -16,16 +16,16 @@ function Hero() {
 
   return (
     <>
-      <div className="flex justify-center items-center w-full bg-hero-image bg-cover bg-center h-[720px]">
+      <div className="flex justify-center items-center w-full bg-hero-image bg-cover bg-center h-[720px] md:px-20 px-8">
         <div
-          className="flex flex-col justify-center items-center w-full lg:max-w-[1080px] gap-12 p-8 lg:p-24 mt-10"
+          className="flex flex-col justify-center items-center w-full max-w-[1080px] gap-12 mt-10"
           data-aos="fade-up"
         >
           <div className="flex flex-col justify-center items-center w-full gap-4">
-            <p className="flex justify-center w-full text-white text-base lg:text-xl font-extrabold">
+            <p className="flex justify-center w-full text-white text-base lg:text-xl font-extrabold text-center">
               Selamat Datang di Website Desa
             </p>
-            <h1 className="animate-text text-transparent bg-clip-text bg-gradient-to-r from-c-darkgold via-c-lightgold to-c-darkgold text-7xl lg:text-8xl pb-4">
+            <h1 className="animate-text text-transparent bg-clip-text bg-gradient-to-r from-c-darkgold via-c-lightgold to-c-darkgold text-6xl sm:text-7xl lg:text-8xl pb-4">
               Banuroja
             </h1>
             <p className="text-white text-center text-base lg:text-xl">

@@ -50,10 +50,10 @@ function Berita() {
   return (
     <section
       id="peta"
-      className="flex justify-center items-center w-full py-24"
+      className="flex justify-center items-center w-full py-24 md:px-20 px-8"
     >
       <div
-        className="flex flex-col max-w-[1080px] w-full gap-12 px-8 md:px-20 lg:px-0"
+        className="flex flex-col max-w-[1080px] w-full gap-12"
         data-aos="fade-up"
       >
         <div className="flex flex-col justify-center items-center w-full">

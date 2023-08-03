@@ -73,14 +73,14 @@ function Galeri() {
   return (
     <>
       <section
-        className="flex justify-center items-center w-full py-24 bg-gradient-to-t from-c-gold2 to-c-lightgold"
+        className="flex justify-center items-center w-full py-24 bg-gradient-to-t from-c-gold2 to-c-lightgold md:px-20 px-8"
         data-aos="fade-up"
       >
         <div className="flex flex-col max-w-[1080px] gap-8">
           <div className="flex justify-center items-center w-full">
             <h2>Galeri</h2>
           </div>
-          <div className="grid lg:grid-cols-3 md:grid-cols-2 gap-8 px-8 lg:px-0">
+          <div className="grid lg:grid-cols-3 md:grid-cols-2 gap-8">
             {selectedGaleri.map((item, index) => {
               return (
                 <span key={index} className="overflow-hidden rounded-lg">
