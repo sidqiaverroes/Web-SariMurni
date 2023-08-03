@@ -226,7 +226,9 @@ function Pemerintahan() {
 
                       <div className="flex flex-col w-full p-10 gap-2">
                         <h5>{item.title}</h5>
-                        <h4 className="text-c-green">{item.name}</h4>
+                        <p className="text-c-green font-extrabold text-3xl">
+                          {item.name}
+                        </p>
                         {/* <h5 className="text-c-darkgreen">NIP: {item.nip}</h5> */}
                         <a className="flex justify-center items-center w-min bg-c-darkgreen text-white rounded-full px-10 py-1 mt-4 hover:bg-c-green hover:-translate-y-1 hover:shadow-lg shadow-md duration-200">
                           Hubungi
