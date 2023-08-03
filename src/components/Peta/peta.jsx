@@ -28,10 +28,10 @@ function Peta() {
   return (
     <section
       id="peta"
-      className=" flex justify-center items-center w-full py-24 relative z-0"
+      className=" flex justify-center items-center w-full py-24 relative z-0 md:px-20 px-8"
       data-aos="fade-up"
     >
-      <div className="flex flex-col max-w-[1080px] w-full gap-12 px-8 lg:px-0">
+      <div className="flex flex-col max-w-[1080px] w-full gap-12">
         <div className="flex flex-col justify-center items-center w-full text-center">
           <h2>Peta Wilayah</h2>
           {/* <h6>Lorem ipsum dolor sit amet consectetur.</h6> */}

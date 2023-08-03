@@ -150,10 +150,10 @@ function Pemerintahan() {
 
   return (
     <>
-      <div className="flex justify-center items-start mt-16 w-full">
-        <div className="flex flex-row justify-center items-start max-w-[1080px] w-full my-16 gap-16 px-8 md:px-0">
+      <div className="flex justify-center items-start mt-16 w-full px-8 md:px-20">
+        <div className="flex flex-row justify-center items-start max-w-[1080px] w-full my-16 gap-16">
           {/* SIDEBAR BEGIN */}
-          <div className="hidden md:flex flex-col min-w-fit gap-3 sticky top-24">
+          <div className="hidden lg:flex flex-col min-w-fit gap-3 sticky top-24">
             <a
               onClick={(event) => handleClick(event, "struktur")}
               className="group flex flex-row gap-4"
@@ -214,7 +214,7 @@ function Pemerintahan() {
                 return (
                   <section key={index} id={item.id} className="section">
                     <div className="flex flex-col md:flex-row w-full h-[600px] md:h-[200px] border border-gray-200 rounded-lg shadow-md overflow-hidden">
-                      <div className="overflow-hidden h-full">
+                      <div className="overflow-hidden md:w-1/2 h-full">
                         <Image
                           src={item.image}
                           alt="profil perangkat desa"

@@ -45,8 +45,8 @@ function Footer() {
   return (
     <>
       <div className="flex flex-col">
-        <div className="flex justify-center w-full bg-c-green py-[96px]">
-          <div className="flex flex-col lg:flex-row justify-center items-start max-w-[1080px] px-10 md:px-20 lg:px-0 gap-24 w-full">
+        <div className="flex justify-center w-full bg-c-green py-[96px] md:px-20 px-8">
+          <div className="flex flex-col lg:flex-row justify-center items-start max-w-[1080px] gap-24 w-full">
             <div className="flex flex-col w-full lg:w-1/2 gap-4 text-white">
               <h1 className=" text-2xl">Desa Banuroja</h1>
               <p className="text-base">
@@ -74,8 +74,8 @@ function Footer() {
           </div>
         </div>
 
-        <div className="flex justify-center bg-c-darkgreen">
-          <div className="flex flex-col lg:flex-row max-w-[1080px] text-base gap-4 lg:justify-between w-full px-10 md:px-20 lg:px-0 py-8">
+        <div className="flex justify-center bg-c-darkgreen md:px-20 px-8">
+          <div className="flex flex-col lg:flex-row max-w-[1080px] text-base gap-2 lg:justify-between w-full lg:py-4 py-8">
             <h1 className="text-c-gold2">Website Desa</h1>
             <p className="text-c-lightgold">
               KKN-PPM Universitas Gadjah Mada Randangan Benderang 2023

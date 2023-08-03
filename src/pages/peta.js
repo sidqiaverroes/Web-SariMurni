@@ -5,14 +5,14 @@ import Footer from "@/components/footer";
 function Peta() {
   return (
     <>
-      <div className="flex flex-col justify-center items-center w-full">
-        <div className="flex flex-col justify-center items-center w-full max-w-[1080px] mt-16 py-16">
-          <div className="flex flex-col w-full gap-8 pt-12 bg-white rounded-lg shadow-lg border border-c-lightgold">
-            <span className="flex flex-col items-center ">
+      <div className="flex flex-col justify-center items-center w-full h-full ">
+        <div className="flex flex-col justify-center items-center w-full h-full max-w-[1080px] py-24">
+          <div className="flex flex-col w-full gap-8 h-full">
+            <span className="flex flex-col items-center lg:gap-2 gap-4 pt-8">
               <h3 className="text-xl text-c-darkgold">Story Maps</h3>
-              <h2 className="-mt-2">Desa Banuroja</h2>
+              <h2 className="-mt-2 text-center leading-none">Desa Banuroja</h2>
             </span>
-            <div className="w-full">
+            <div className="flex justify-center items-center w-full h-full">
               <iframe
                 src="https://storymaps.arcgis.com/stories/598109ebcd414c19b9beaa7912c5146c"
                 width="100%"
