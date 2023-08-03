@@ -46,7 +46,7 @@ function Profil() {
                 alt="img"
                 width={500}
                 height={500}
-                className="w-full"
+                className="w-full object-cover"
               ></Image>
             </div>
           </section>
