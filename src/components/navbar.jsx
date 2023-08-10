@@ -2,6 +2,7 @@ import Image from "next/image";
 import { useRouter } from "next/router";
 import React, { useState, useEffect } from "react";
 import Link from "next/link";
+import { BsChevronDown } from "react-icons/bs";
 
 import logo from "../../public/logo-banu.png";
 
@@ -51,12 +52,18 @@ function NavBar(props) {
       href: "/",
     },
     {
-      name: "Profil",
-      href: "/profil",
-    },
-    {
-      name: "Pemerintahan",
-      href: "/pemerintahan",
+      name: "Tentang",
+      href: "",
+      items: [
+        {
+          name: "Profil",
+          href: "/profil",
+        },
+        {
+          name: "Pemerintahan",
+          href: "/pemerintahan",
+        },
+      ],
     },
     {
       name: "Peta",
@@ -134,15 +141,42 @@ function NavBar(props) {
           <nav className="hidden md:flex flex-row justify-between gap-3 lg:gap-6">
             {navItem.map((item, index) => (
               <ul key={index} className="flex flex-col">
-                <Link
-                  href={item.href}
-                  className={` hover:text-c-gold ${
-                    isActive(`${item.href}`) ? "text-c-gold2" : "text-white"
-                  }`}
-                >
-                  {item.name}
-                </Link>
-                {isActive(`${item.href}`) && (
+                {item.href == "" ? (
+                  <a
+                    className={`relative group flex hover:text-c-gold ${
+                      isActive(item.href) ? "text-c-gold2" : "text-white"
+                    }`}
+                  >
+                    <span className="flex flex-row justify-center items-center gap-2">
+                      {item.name}{" "}
+                      <BsChevronDown size={10} className=""></BsChevronDown>
+                    </span>
+                    <div className="hidden absolute mt-2 group-hover:block">
+                      <div className="flex flex-col rounded-lg overflow-hidden mt-5">
+                        {item.items.map((child, index) => (
+                          <Link
+                            key={index}
+                            href={child.href}
+                            className="block px-4 py-2 text-white bg-c-darkgreen  hover:bg-c-green"
+                          >
+                            {child.name}
+                          </Link>
+                        ))}
+                      </div>
+                    </div>
+                  </a>
+                ) : (
+                  <Link
+                    href={item.href}
+                    className={` hover:text-c-gold ${
+                      isActive(item.href) ? "text-c-gold2" : "text-white"
+                    }`}
+                  >
+                    {item.name}
+                  </Link>
+                )}
+
+                {isActive(item.href) && (
                   <div className="w-full h-[0.5px] bg-c-gold2" />
                 )}
               </ul>
@@ -173,7 +207,14 @@ function NavBar(props) {
           <div className="rounded-lg shadow-lg ring-1 ring-black ring-opacity-5 bg-white divide-y-2 divide-gray-50">
             <div className="pt-5 pb-6 px-5">
               <div className="flex items-center justify-between">
-                <div></div>
+                <div className="flex flex-row justify-center items-center gap-4">
+                  <span>
+                    <Image src={logo} alt="logo" width={40} height={40} />
+                  </span>
+                  <span className="leading-none font-bold text-c-gold2 text-base">
+                    Desa Banuroja
+                  </span>
+                </div>
                 <div className="-mr-2">
                   <button
                     type="button"
