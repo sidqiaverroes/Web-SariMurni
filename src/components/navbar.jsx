@@ -140,7 +140,7 @@ function NavBar(props) {
 
           <nav className="hidden md:flex flex-row justify-between gap-3 lg:gap-6">
             {navItem.map((item, index) => (
-              <ul className="flex flex-col">
+              <ul key={index} className="flex flex-col">
                 {item.href == "" ? (
                   <a
                     className={`relative group flex hover:text-c-gold ${
@@ -169,7 +169,6 @@ function NavBar(props) {
                   </a>
                 ) : (
                   <Link
-                    key={index}
                     href={item.href}
                     className={` hover:text-c-gold ${
                       isActive(item.href) ? "text-c-gold2" : "text-white"
