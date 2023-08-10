@@ -56,12 +56,12 @@ function NavBar(props) {
       href: "",
       items: [
         {
-          name: "Profil",
-          href: "/profil",
+          name: "Profil Desa",
+          href: "/tentang/profildesa",
         },
         {
           name: "Pemerintahan",
-          href: "/pemerintahan",
+          href: "/tentang/pemerintahan",
         },
       ],
     },
@@ -71,7 +71,17 @@ function NavBar(props) {
     },
     {
       name: "BUMDes",
-      href: "/bumdes",
+      href: "",
+      items: [
+        {
+          name: "Profil BUMDes",
+          href: "/bumdes/profilbumdes",
+        },
+        {
+          name: "Unit Usaha",
+          href: "/bumdes/unitusaha",
+        },
+      ],
     },
     {
       name: "Berita",
@@ -142,29 +152,25 @@ function NavBar(props) {
             {navItem.map((item, index) => (
               <ul key={index} className="flex flex-col">
                 {item.href == "" ? (
-                  <a
-                    className={`relative group flex hover:text-c-gold ${
-                      isActive(item.href) ? "text-c-gold2" : "text-white"
-                    }`}
-                  >
+                  <div className="relative group flex hover:text-c-gold text-white">
                     <span className="flex flex-row justify-center items-center gap-2">
-                      {item.name}{" "}
+                      {item.name}
                       <BsChevronDown size={10} className=""></BsChevronDown>
                     </span>
-                    <div className="hidden absolute mt-2 group-hover:block">
+                    <div className="hidden absolute mt-2 group-hover:block shadow-lg">
                       <div className="flex flex-col rounded-lg overflow-hidden mt-5">
                         {item.items.map((child, index) => (
                           <Link
                             key={index}
                             href={child.href}
-                            className="block px-4 py-2 text-white bg-c-darkgreen  hover:bg-c-green"
+                            className="block px-4 py-2 text-white bg-c-darkgreen  hover:bg-c-green truncate"
                           >
                             {child.name}
                           </Link>
                         ))}
                       </div>
                     </div>
-                  </a>
+                  </div>
                 ) : (
                   <Link
                     href={item.href}

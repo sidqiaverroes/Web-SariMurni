@@ -80,7 +80,7 @@ function Komoditas() {
             </h6>
           </div>
 
-          <div className="flex md:flex-row items-center gap-4">
+          <div className="flex md:flex-row items-center gap-8">
             <div
               onClick={() => swiper.slidePrev()}
               className="bg-white p-2 rounded-full hover:cursor-pointer hover:-translate-y-1 duration-200 text-c-darkgreen lg:block hidden"
@@ -105,8 +105,8 @@ function Komoditas() {
                 const { _id, name, desc, image } = item;
                 return (
                   <SwiperSlide key={index}>
-                    <div className="flex w-full overflow-visible justify-center items-center">
-                      <div className="shadow-lg flex flex-col justify-center items-center rounded-md bg-gradient-to-r from-c-gold2 to-c-lightgold  h-[300px] w-[250px] mb-16 overflow-hidden">
+                    <div className="flex justify-center items-center w-">
+                      <div className="shadow-lg flex flex-col justify-center items-center rounded-md bg-gradient-to-r from-c-gold2 to-c-lightgold  h-[300px] w-[260px] mb-16 overflow-hidden">
                         <Image
                           src={image}
                           alt="komoditas"
@@ -114,7 +114,7 @@ function Komoditas() {
                           height={500}
                           className="relative w-auto h-full object-cover overflow-hidden"
                         ></Image>
-                        <div className="flex flex-row items-center justify-between gap-4 py-2 lg:px-0 px-4">
+                        <div className="flex flex-row items-center justify-center gap-6 py-2 lg:px-0 px-4">
                           <p className="text-c-darkgreen font-extrabold text-lg">
                             {name}
                           </p>
