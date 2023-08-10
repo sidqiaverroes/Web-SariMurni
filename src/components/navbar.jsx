@@ -152,10 +152,12 @@ function NavBar(props) {
                       <BsChevronDown size={10} className=""></BsChevronDown>
                     </span>
                     <div className="hidden absolute mt-2 group-hover:block">
-                      <div className="flex flex-col rounded-lg overflow-hidden mt-5">
+                      <div
+                        key={index}
+                        className="flex flex-col rounded-lg overflow-hidden mt-5"
+                      >
                         {item.items.map((child, index) => (
                           <Link
-                            key={index}
                             href={child.href}
                             className="block px-4 py-2 text-white bg-c-darkgreen  hover:bg-c-green"
                           >
