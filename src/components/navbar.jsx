@@ -142,16 +142,12 @@ function NavBar(props) {
             {navItem.map((item, index) => (
               <ul key={index} className="flex flex-col">
                 {item.href == "" ? (
-                  <a
-                    className={`relative group flex hover:text-c-gold ${
-                      isActive(item.href) ? "text-c-gold2" : "text-white"
-                    }`}
-                  >
+                  <a className="relative group flex hover:text-c-gold text-white">
                     <span className="flex flex-row justify-center items-center gap-2">
                       {item.name}{" "}
                       <BsChevronDown size={10} className=""></BsChevronDown>
                     </span>
-                    <div className="hidden absolute mt-2 group-hover:block">
+                    <div className="hidden absolute mt-2 group-hover:block shadow-lg">
                       <div className="flex flex-col rounded-lg overflow-hidden mt-5">
                         {item.items.map((child, index) => (
                           <Link
