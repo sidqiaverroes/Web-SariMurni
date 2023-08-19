@@ -119,7 +119,7 @@ function NavBar(props) {
               />
             </Link>
             <span className="leading-none font-bold text-c-gold2 text-base">
-              Desa Banuroja
+              Desa Sari Murni
             </span>
           </div>
           <div className="-mr-2 -my-2 md:hidden">
@@ -218,7 +218,7 @@ function NavBar(props) {
                     <Image src={logo} alt="logo" width={40} height={40} />
                   </span>
                   <span className="leading-none font-bold text-c-gold2 text-base">
-                    Desa Banuroja
+                    Desa Sari Murni
                   </span>
                 </div>
                 <div className="-mr-2">

@@ -26,7 +26,7 @@ function Hero() {
               Selamat Datang di Website Desa
             </p>
             <h1 className="animate-text text-transparent bg-clip-text bg-gradient-to-r from-c-darkgold via-c-lightgold to-c-darkgold text-6xl sm:text-7xl lg:text-8xl pb-4">
-              Banuroja
+              Sari Murni
             </h1>
             <p className="text-white text-center text-base lg:text-xl">
               Desa Banuroja adalah desa transmigrasi yang terletak di Kecamatan
