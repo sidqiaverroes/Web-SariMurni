@@ -4,45 +4,6 @@ import Footer from "@/components/footer";
 import ArtikelCard from "@/components/Artikel/artikelCard";
 import artikelData from "@/data/artikelData.json";
 
-const ArtikelItem = ({ imageSrc, title }) => {
-  const [isHovered, setIsHovered] = useState(false);
-
-  const handleMouseEnter = () => {
-    setIsHovered(true);
-  };
-
-  const handleMouseLeave = () => {
-    setIsHovered(false);
-  };
-
-  return (
-    <div
-      className="group flex flex-col w-auto h-[300px] bg-white hover:translate-y-0 hover:shadow-lg hover:cursor-pointer shadow-md duration-200 lg:hover14"
-      onMouseEnter={handleMouseEnter}
-      onMouseLeave={handleMouseLeave}
-    >
-      <Image
-        src={imageSrc}
-        width={500}
-        height={500}
-        alt="galeri-img"
-        className=" w-full h-full object-cover overflow-hidden group-hover:scale-110 duration-200 hover:cursor-pointer"
-      ></Image>
-      {isHovered && (
-        <div
-          className={`absolute bottom-0 w-full ${
-            isHovered ? "block" : "hidden"
-          }`}
-        >
-          <p className="flex w-full justify-center items-center text-c-lightgold font-bold galleryTitle py-1">
-            {title}
-          </p>
-        </div>
-      )}
-    </div>
-  );
-};
-
 function artikel() {
   const artikels = artikelData;
   // Function to replace Indonesian month names with English
