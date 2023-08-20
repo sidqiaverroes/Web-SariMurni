@@ -70,18 +70,8 @@ function NavBar(props) {
       href: "/peta",
     },
     {
-      name: "BUMDes",
-      href: "",
-      items: [
-        {
-          name: "Profil BUMDes",
-          href: "/bumdes/profilbumdes",
-        },
-        {
-          name: "Unit Usaha",
-          href: "/bumdes/unitusaha",
-        },
-      ],
+      name: "Artikel",
+      href: "/artikel",
     },
     {
       name: "Berita",

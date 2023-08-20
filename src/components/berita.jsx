@@ -49,7 +49,7 @@ function Berita() {
 
   return (
     <section
-      id="peta"
+      id="berita"
       className="flex justify-center items-center w-full py-24 md:px-20 px-8"
     >
       <div
@@ -78,7 +78,7 @@ function Berita() {
                 {latestBerita[0].date}
               </p>
               <p className="text-xl font-extrabold">
-                {truncateText(latestBerita[0].title, descMaxLength)}
+                {truncateText(latestBerita[0].title, titleMaxLength)}
               </p>
               <p className="text-base">
                 {truncateText(latestBerita[0].desc, descMaxLength)}
