@@ -1,7 +1,7 @@
 import React from "react";
 import NavBar from "@/components/navbar";
 import Footer from "@/components/footer";
-import ArtikelCard from "@/components/Artikel/artikelCard";
+import ArticleCard from "@/components/Artikel/index";
 import artikelData from "@/data/artikelData.json";
 
 function artikel() {
@@ -50,9 +50,9 @@ function artikel() {
                 Telusuri berbagai artikel tentang Desa Sari Murni di laman ini.
               </p>
             </span>
-            <div className="grid lg:grid-cols-3 md:grid-cols-2 gap-6">
+            <div className="grid lg:grid-cols-3 md:grid-cols-2 gap-8">
               {artikels.map((item, index) => {
-                return <ArtikelCard key={index} item={item}></ArtikelCard>;
+                return <ArticleCard key={index} item={item} />;
               })}
             </div>
           </div>

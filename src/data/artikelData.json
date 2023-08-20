@@ -1,47 +1,83 @@
 [
-    {
-      "id": "1",
-      "title": "Judul artikel sebagai contoh aja",
-      "category": "Kesehatan",
-      "body": "Lorem ipsum dolor sit amet consectetur. Cras rutrum a molestie purus vitae feugiat. ",
-      "author": "Admin",
-      "date": "20 Agustus 2023",
-      "image": "/galeri1.png"
-    },
-    {
-      "id": "2",
-      "title": "Judul artikel sebagai contoh aja biar agak panjang",
-      "category": "Kesehatan",
-      "body": "Lorem ipsum dolor sit amet consectetur. Cras rutrum a molestie purus vitae feugiat. ",
-      "author": "Admin",
-      "date": "19 Agustus 2023",
-      "image": "/galeri2.png"
-    },
-    {
-      "id": "3",
-      "title": "Judul artikel sebagai contoh aja biar agak panjang",
-      "category": "Kesehatan",
-      "body": "Lorem ipsum dolor sit amet consectetur. Cras rutrum a molestie purus vitae feugiat. ",
-      "author": "Admin",
-      "date": "21 Agustus 2023",
-      "image": "/galeri3.png"
-    },
-    {
-      "id": "5",
-      "title": "Judul artikel sebagai contoh aja biar agak panjang",
-      "category": "Kesehatan",
-      "body": "Lorem ipsum dolor sit amet consectetur. Cras rutrum a molestie purus vitae feugiat. ",
-      "author": "Admin",
-      "date": "17 Agustus 2023",
-      "image": "/galeri4.png"
-    },
-    {
-      "id": "4",
-      "title": "Judul artikel sebagai contoh aja biar agak panjang",
-      "category": "Kesehatan",
-      "body": "Lorem ipsum dolor sit amet consectetur. Cras rutrum a molestie purus vitae feugiat. ",
-      "author": "Admin",
-      "date": "18 Agustus 2023",
-      "image": "/galeri5.png"
-    }
-  ]
+  {
+    "id": "1",
+    "title": "Siap Tuntas Tengkes Desa Sari Murni dan Banuroja melalui Program Lawnching (Langkah Awal Cegah Stunting)",
+    "category": "Kesehatan",
+    "body": [
+      "Stunting (tengkes) merupakan kondisi status gizi anak yang memiliki tinggi badan atau panjang badan kurang dari -2.0 standar deviasi (SD) dengan cara membandingkannya menurut umur balita dengan grafik z-score World Health Organization (WHO). Stunting dapat mengindikasikan status kesehatan masyarakat dalam suatu generasi karena dampak akan terlihat beberapa tahun kemudian, seperti: rentan terkena penyakit infeksi, berisiko tinggi terjangkit penyakit degeneratif, kurangnya produktivitas, berkurangnya fungsi kognitif, dan lain-lain.",
+      "Angka <em>stunting</em> di Indonesia ditargetkan menurun mencapai 14% pada tahun 2024 dengan rata-rata penurunan sebesar 3,8% per tahun, sedangkan menurut penuturan dari pemerintah Provinsi Gorontalo angka <em>stunting</em> di daerahnya masih berada di angka 23%. Kegiatan KKN Kolaborasi UGM-UNG diharapkan dapat mewujudkan zero <em>stunting</em> atau tuntas tengkes, khususnya di lima desa penerjunan yakni: Desa Olimoo, Lamu, Tantoyuo, Sari Murni, dan Banuroja.",
+      "Berdasarkan data dari WHO (2017), jumlah balita dengan kondisi <em>stunting</em> di dunia mencapai hampir 155 juta. Data ini ditunjang melalui data dari Bank Dunia yang menyatakan bahwa angka <em>stunting</em> mencapai 28,5% dengan kondisi kekurangan zat besi dan yodium. Hal tersebut masih menjadi fokus pengendalian <em>stunting</em>. Indonesia termasuk ke dalam kategori sedang prevalensi <em>stunting</em> di kawasan Asia Tenggara. Hal ini turut dipengaruhi oleh kesenjangan keluarga yang berhubungan juga dengan latar belakang etnis dan budaya.",
+      "KKN-PPM UGM berkesempatan untuk membantu pemerintah dalam upaya pencegahan <em>stunting</em> di Desa Sari Murni dan Banuroja. Mahasiswa membantu dalam hal pemberdayaan Posyandu melalui program Lawnching (Langkah Awal Cegah Stunting) yang ditunjang dengan kegiatan kesehatan lain seperti: pemanfaatan TOGA (Tanaman Obat Keluarga), edukasi PHBS (Perilaku Hidup Bersih Sehat), edukasi seksual pada remaja sebagai upaya mengurangi angka pernikahan dini, edukasi gizi seimbang, pemeriksaan kesehatan, senam, dan sebagainya yang membantu dalam penurunan angka <em>stunting</em>. Program-program tersebut setidaknya dapat mencegah penambahan kasus <em>stunting</em> di Desa Sari Murni dan Banuroja.",
+      "Desa Sari Murni merupakan salah satu lokus <em>stunting</em> di Kecamatan Randangan. Jumlah kasus <em>stunting</em> di desa ini mencapai 21 balita yang tersebar di empat dusun berbeda. Informasi ini didapatkan dari kader dalam pelaksanaan Posyandu pada tanggal 25 Juli 2023. Upaya sosialisasi terkait <em>stunting</em> diupayakan sebagai upaya peningkatan kesadaran orang tua terkait <em>stunting</em>. Berdasarkan informasi yang digali melalui Kepala Puskesmas Motolohu Kecamatan Randangan, Triwijayati Djuari, S.K.M., akses pendataan terkait <em>stunting</em> sudah dioptimalkan, hanya saja tingkat kesadaran masyarakat masih rendah terutama terhadap asupan makanan dan PHBS . Hal ini perlu digencarkan sehingga program edukasi kepada masyarakat dapat membantu penurunan angka <em>stunting</em>.",
+      "Sedangkan kasus <em>stunting</em> yang ada di Desa Banuroja berjumlah sembilan balita per tanggal 25 Juli 2023. Jumlah ini memang lebih sedikit dibandingkan dengan jumlah balita <em>stunting</em> di Desa Sari Murni. Namun, harapan zero <em>stunting</em> (nihil tengkes) masih terus diupayakan agar selaras dengan program pemerintah. Terlebih, jejak angka <em>stunting</em> cenderung mengalami peningkatan di beberapa daerah sehingga pengendalian multisektoral sangat dibutuhkan dengan pemanfaatan SDM yang ada mulai dari pemerintah, masyarakat, maupun swasta sebagai upaya penurunan angka <em>stunting</em>.",
+      "Masyarakat mengeluhkan anaknya yang mengalami <em>stunting</em>. Beberapa orang tua menolak anaknya masuk ke kategori <em>stunting</em> sehingga tidak percaya dengan pengukuran yang ada saat Posyandu. Bahkan ada orang tua yang sampai mengonfirmasi kondisi anaknya yang <em>stunting</em> ke dokter anak. Kepercayaan orang tua terhadap pengukuran ketika Posyandu perlu ditingkatkan dengan cara transparansi proses pendataan pengukuran. Selain itu, pelatihan terhadap kader perlu diupayakan sebagai wujud standardisasi pengukuran terhadap ibu dan balita. Terlebih, kader Posyandu silih berganti sehingga pelatihan kader dapat dilakukan sebagai bentuk peningkatan kualitas pengukuran dan pendataan. Perlu adanya kerja sama antara pemerintah desa dan Puskesmas dalam hal pendanaan dan pengadaan alat yang lebih baik. Redefinisi <em>stunting</em> diperlukan sebagai salah satu cara agar masyarakat bisa memahami dan mewaspadai bahaya <em>stunting</em>. Selain itu, indikator <em>stunting</em> bisa lebih lengkap, seperti: adanya pemeriksaan fungsi kognitif misalnya supaya kalimat “Anak yang <em>stunting</em> pasti pendek, sedangkan anak yang pendek belum tentu stunting” bisa lebih dapat dipahami masyarakat.",
+      "Upaya menuntaskan <em>stunting</em> harus melibatkan kerja sama dari beberapa sektor baik akademisi, pemerintah, tenaga kesehatan, maupun partisipasi aktif dari masyarakat. Selain itu, peran organisasi kesehatan tingkat desa harus digalakkan untuk mengurangi <em>stunting</em>. Intervensi dapat juga dilakukan dengan cara PMT (Pemberian Makanan Tambahan) yang biasanya dibantu dengan adanya PKH (Program Keluarga Harapan). Dengan adanya KKN Kolaborasi UGM-UNG, kerja sama dengan dinas terkait dapat ditingkatkan, khususnya dengan peningkatan komoditas protein hewani dari sektor perikanan. Penanganan <em>stunting</em> memang harus melibatkan pendekatan multisektoral. Pendekatan ini melibatkan berbagai pihak yang memiliki kepentingan demi mengentaskan kondisi <em>stunting</em> yang dialami oleh anak-anak. Pada akhirnya, <em>stunting</em> bukan hanya terkait dengan kondisi fisik dari penderita, tetapi juga terkait dengan permasalahan multidimensi yang menaunginya. Dengan demikian, penanganan <em>stunting</em> harus bisa menyentuh basis kesadaran dari masyarakat dan pemerintah untuk menangani dan memberantas <em>stunting</em>."
+    ],
+    "author": "Lulu Camelia",
+    "date": "20 Agustus 2023",
+    "image": [
+      "/artikel1.png",
+      "/artikel2.png"
+    ]
+  },
+  {
+    "id": "2",
+    "title": "Judul artikel sebagai contoh aja biar agak panjang",
+    "category": "Kesehatan",
+    "body": [
+      "Lorem ipsum dolor sit amet consectetur. Cras rutrum a molestie purus vitae feugiat.",
+      "Lorem ipsum dolor sit amet consectetur. Cras rutrum a molestie purus vitae feugiat."
+    ],
+    "author": "Admin",
+    "date": "19 Agustus 2023",
+    "image": [
+      "/galeri2.png",
+      "/galeri2.png"
+    ]
+  },
+  {
+    "id": "3",
+    "title": "Judul artikel sebagai contoh aja biar agak panjang",
+    "category": "Kesehatan",
+    "body": [
+      "Lorem ipsum dolor sit amet consectetur. Cras rutrum a molestie purus vitae feugiat.",
+      "Lorem ipsum dolor sit amet consectetur. Cras rutrum a molestie purus vitae feugiat."
+    ],
+    "author": "Admin",
+    "date": "16 Agustus 2023",
+    "image": [
+      "/galeri3.png",
+      "/galeri3.png"
+    ]
+  },
+  {
+    "id": "5",
+    "title": "Judul artikel sebagai contoh aja biar agak panjang",
+    "category": "Kesehatan",
+    "body": [
+      "Lorem ipsum dolor sit amet consectetur. Cras rutrum a molestie purus vitae feugiat.",
+      "Lorem ipsum dolor sit amet consectetur. Cras rutrum a molestie purus vitae feugiat."
+    ],
+    "author": "Admin",
+    "date": "17 Agustus 2023",
+    "image": [
+      "/galeri4.png",
+      "/galeri4.png"
+    ]
+  },
+  {
+    "id": "4",
+    "title": "Judul artikel sebagai contoh aja biar agak panjang",
+    "category": "Kesehatan",
+    "body": [
+      "Lorem ipsum dolor sit amet consectetur. Cras rutrum a molestie purus vitae feugiat.",
+      "Lorem ipsum dolor sit amet consectetur. Cras rutrum a molestie purus vitae feugiat."
+    ],
+    "author": "Admin",
+    "date": "18 Agustus 2023",
+    "image": [
+      "/galeri5.png",
+      "/galeri5.png"
+    ]
+  }
+]
