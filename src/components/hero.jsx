@@ -29,10 +29,10 @@ function Hero() {
               Sari Murni
             </h1>
             <p className="text-white text-center text-base lg:text-xl">
-              Desa Banuroja adalah desa transmigrasi yang terletak di Kecamatan
-              Randangan, Kabupaten Pohuwato, Provinsi Gorontalo. Desa Banuroja
-              dijuluki sebagai &quot;Desa Pancasila&quot; karena masyarakatnya
-              yang heterogen.
+              Desa Sari Murni adalah desa transmigrasi yang terletak di
+              Kecamatan Randangan, Kabupaten Pohuwato, Provinsi Gorontalo. Desa
+              Banuroja dijuluki sebagai &quot;Desa Pancasila&quot; karena
+              masyarakatnya yang heterogen.
             </p>
           </div>
           <a

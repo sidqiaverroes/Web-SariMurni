@@ -57,7 +57,7 @@ function Peta() {
 
           <div className="flex flex-col justify-center items-center text-white gap-2 lg:gap-4 py-4">
             <p className=" font-extrabold text-xl text-center">
-              Peta Desa Banuroja
+              Peta Desa Sari Murni
             </p>
             <Link
               href="/peta"

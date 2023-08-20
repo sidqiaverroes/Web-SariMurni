@@ -59,7 +59,7 @@ function Berita() {
         <div className="flex flex-col justify-center items-center w-full">
           <h2 className="text-center">Berita Terkini</h2>
           <h6 className="text-center">
-            Informasi aktual tentang Desa Banuroja.
+            Informasi aktual tentang Desa Sari Murni.
           </h6>
         </div>
         <div className="flex flex-col lg:flex-row w-full gap-8 ">

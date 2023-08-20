@@ -48,12 +48,12 @@ function Footer() {
         <div className="flex justify-center w-full bg-c-green py-[96px] md:px-20 px-8">
           <div className="flex flex-col lg:flex-row justify-center items-start max-w-[1080px] gap-24 w-full">
             <div className="flex flex-col w-full lg:w-1/2 gap-4 text-white">
-              <h1 className=" text-2xl">Desa Banuroja</h1>
+              <h1 className=" text-2xl">Desa Sari Murni</h1>
               <p className="text-base">
-                Desa Banuroja adalah desa transmigrasi yang terletak di
+                Desa Sari Murni adalah desa transmigrasi yang terletak di
                 Kecamatan Randangan, Kabupaten Pohuwato, Provinsi Gorontalo.
-                Desa Banuroja dijuluki sebagai &quot;Desa Pancasila&quot; karena
-                masyarakatnya yang heterogen.
+                Desa Sari Murni dijuluki sebagai &quot;Desa Pancasila&quot;
+                karena masyarakatnya yang heterogen.
               </p>
               <div id="socmed" className="flex flex-row gap-4 pt-2">
                 {socmed.map((item, index) => (
@@ -65,7 +65,8 @@ function Footer() {
               <h1 className=" text-2xl">Kontak</h1>
               <div className="flex flex-col gap-1 text-base">
                 <p>
-                  Banuroja, Kec. Randangan, Kabupaten Pohuwato, Gorontalo 96469
+                  Sari Murni, Kec. Randangan, Kabupaten Pohuwato, Gorontalo
+                  96469
                 </p>
                 <p>Email: asdasdasdsa</p>
                 <p>No.Telp: +62852-3828-3882</p>
