@@ -2,6 +2,7 @@ import React from "react";
 import NavBar from "@/components/navbar";
 import Footer from "@/components/footer";
 import ArtikelCard from "@/components/Artikel/artikelCard";
+import artikelData from "@/data/artikelData.json";
 
 const ArtikelItem = ({ imageSrc, title }) => {
   const [isHovered, setIsHovered] = useState(false);
@@ -43,54 +44,7 @@ const ArtikelItem = ({ imageSrc, title }) => {
 };
 
 function artikel() {
-  const artikels = [
-    {
-      id: "artikel1",
-      title: "Judul artikel sebagai contoh aja",
-      category: "Kesehatan",
-      body: "Lorem ipsum dolor sit amet consectetur. Cras rutrum a molestie purus vitae feugiat. ",
-      author: "Admin",
-      date: "20 Agustus 2023",
-      image: "/galeri1.png",
-    },
-    {
-      id: "artikel2",
-      title: "Judul artikel sebagai contoh aja biar agak panjang",
-      category: "Kesehatan",
-      body: "Lorem ipsum dolor sit amet consectetur. Cras rutrum a molestie purus vitae feugiat. ",
-      author: "Admin",
-      date: "19 Agustus 2023",
-      image: "/galeri2.png",
-    },
-    {
-      id: "artikel3",
-      title: "Judul artikel sebagai contoh aja biar agak panjang",
-      category: "Kesehatan",
-      body: "Lorem ipsum dolor sit amet consectetur. Cras rutrum a molestie purus vitae feugiat. ",
-      author: "Admin",
-      date: "21 Agustus 2023",
-      image: "/galeri3.png",
-    },
-    {
-      id: "artikel5",
-      title: "Judul artikel sebagai contoh aja biar agak panjang",
-      category: "Kesehatan",
-      body: "Lorem ipsum dolor sit amet consectetur. Cras rutrum a molestie purus vitae feugiat. ",
-      author: "Admin",
-      date: "17 Agustus 2023",
-      image: "/galeri4.png",
-    },
-    {
-      id: "artikel4",
-      title: "Judul artikel sebagai contoh aja biar agak panjang",
-      category: "Kesehatan",
-      body: "Lorem ipsum dolor sit amet consectetur. Cras rutrum a molestie purus vitae feugiat. ",
-      author: "Admin",
-      date: "18 Agustus 2023",
-      image: "/galeri5.png",
-    },
-  ];
-
+  const artikels = artikelData;
   // Function to replace Indonesian month names with English
   function replaceIndonesianMonth(dateString) {
     const monthMap = {

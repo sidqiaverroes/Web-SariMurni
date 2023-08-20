@@ -20,9 +20,9 @@ function artikelCard(props) {
         width={500}
         height={500}
         alt="galeri-img"
-        className="relative z-0 w-full h-full object-cover overflow-hidden group-hover:scale-110 duration-200 hover:cursor-pointer"
+        className="relative w-full h-full object-cover overflow-hidden group-hover:scale-110 duration-200 hover:cursor-pointer"
       ></Image>
-      <div className="relative z-10 flex flex-col justify-between h-full gap-2 bg-white p-8">
+      <div className="relative flex flex-col justify-between h-full gap-2 bg-white p-8">
         <span className="flex flex-row items-center text-c-gold">
           <p>{props.item.category}</p> &nbsp;{" "}
           <span class=" font-bold text-lg">•</span> &nbsp;{" "}

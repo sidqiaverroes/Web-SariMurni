@@ -1,0 +1,47 @@
+[
+    {
+      "id": "1",
+      "title": "Judul artikel sebagai contoh aja",
+      "category": "Kesehatan",
+      "body": "Lorem ipsum dolor sit amet consectetur. Cras rutrum a molestie purus vitae feugiat. ",
+      "author": "Admin",
+      "date": "20 Agustus 2023",
+      "image": "/galeri1.png"
+    },
+    {
+      "id": "2",
+      "title": "Judul artikel sebagai contoh aja biar agak panjang",
+      "category": "Kesehatan",
+      "body": "Lorem ipsum dolor sit amet consectetur. Cras rutrum a molestie purus vitae feugiat. ",
+      "author": "Admin",
+      "date": "19 Agustus 2023",
+      "image": "/galeri2.png"
+    },
+    {
+      "id": "3",
+      "title": "Judul artikel sebagai contoh aja biar agak panjang",
+      "category": "Kesehatan",
+      "body": "Lorem ipsum dolor sit amet consectetur. Cras rutrum a molestie purus vitae feugiat. ",
+      "author": "Admin",
+      "date": "21 Agustus 2023",
+      "image": "/galeri3.png"
+    },
+    {
+      "id": "5",
+      "title": "Judul artikel sebagai contoh aja biar agak panjang",
+      "category": "Kesehatan",
+      "body": "Lorem ipsum dolor sit amet consectetur. Cras rutrum a molestie purus vitae feugiat. ",
+      "author": "Admin",
+      "date": "17 Agustus 2023",
+      "image": "/galeri4.png"
+    },
+    {
+      "id": "4",
+      "title": "Judul artikel sebagai contoh aja biar agak panjang",
+      "category": "Kesehatan",
+      "body": "Lorem ipsum dolor sit amet consectetur. Cras rutrum a molestie purus vitae feugiat. ",
+      "author": "Admin",
+      "date": "18 Agustus 2023",
+      "image": "/galeri5.png"
+    }
+  ]
